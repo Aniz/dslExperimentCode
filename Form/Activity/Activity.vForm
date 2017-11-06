@@ -27,9 +27,6 @@
             </options>
           </field>
         </formHasFields>
-        <formHasFields Id="7c2ab390-7b65-46c4-b2a3-2f6c794077ef">
-          <field Id="91eb58ed-b021-4592-842a-f1df18d0057f" name="Email" type="text" required="false" />
-        </formHasFields>
         <formHasFields Id="78fa20e1-f517-4216-a6db-f2a0e6e37f47">
           <field Id="5800220e-17fd-45a5-a950-a01a63328725" name="Email" type="email" required="true" />
         </formHasFields>

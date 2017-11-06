@@ -18,27 +18,17 @@
     <fieldShape Id="73912b65-29b9-4432-a182-fa33ac1fa568" absoluteBounds="0.5, 3, 1.5, 0.75">
       <fieldMoniker Id="02c31240-8196-4a17-a556-c1aa9387143d" />
     </fieldShape>
-    <fieldConnector Id="c0e78ada-ce50-446c-a78b-402c1170d41d" edgePoints="[(3.625 : 1.8242153125); (1.625 : 1.8242153125); (1.625 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="c0e78ada-ce50-446c-a78b-402c1170d41d" edgePoints="[(3.625 : 1.899411359375); (2.91145833333333 : 1.899411359375 : JumpStart); (2.74479166666667 : 1.899411359375 : JumpEnd); (1.625 : 1.899411359375); (1.625 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="669579a5-ff48-4e31-814f-19956947d20d" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
         <fieldShapeMoniker Id="73912b65-29b9-4432-a182-fa33ac1fa568" />
       </nodes>
     </fieldConnector>
-    <fieldShape Id="539c25e2-dda8-4b08-b3d1-a06f3d0faf42" absoluteBounds="3.75, 0.5, 1.5, 0.75">
-      <fieldMoniker Id="91eb58ed-b021-4592-842a-f1df18d0057f" />
-    </fieldShape>
-    <fieldConnector Id="d82c4198-4493-4af0-9066-a2ee5e8d04e9" edgePoints="[(4.5 : 1.75); (4.5 : 1.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
-      <formHasFieldsMoniker Id="7c2ab390-7b65-46c4-b2a3-2f6c794077ef" />
-      <nodes>
-        <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
-        <fieldShapeMoniker Id="539c25e2-dda8-4b08-b3d1-a06f3d0faf42" />
-      </nodes>
-    </fieldConnector>
     <fieldShape Id="a81494c3-b7f4-4158-b031-3ccef47ca54b" absoluteBounds="7, 0.5, 1.5, 0.75">
       <fieldMoniker Id="5800220e-17fd-45a5-a950-a01a63328725" />
     </fieldShape>
-    <fieldConnector Id="242de302-ff2a-4fa1-84e1-4698771a203d" edgePoints="[(5.625 : 2.125); (6.75 : 2.125); (6.75 : 1.5); (7.75 : 1.5); (7.75 : 1.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="242de302-ff2a-4fa1-84e1-4698771a203d" edgePoints="[(5.625 : 2.125); (7.75 : 2.125); (7.75 : 1.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="78fa20e1-f517-4216-a6db-f2a0e6e37f47" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
@@ -48,7 +38,7 @@
     <fieldShape Id="97bb239b-fd99-4b48-86ad-3f01666c0fef" absoluteBounds="2.125, 3, 1.5, 0.75">
       <fieldMoniker Id="85ab2011-534a-48b9-8707-f65cc776165c" />
     </fieldShape>
-    <fieldConnector Id="83e169b9-ea20-49ed-9b19-77b30e67c85f" edgePoints="[(3.625 : 1.960935625); (3.15625 : 1.960935625); (3.15625 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="83e169b9-ea20-49ed-9b19-77b30e67c85f" edgePoints="[(3.625 : 2.4497106796875); (3.1953125 : 2.4497106796875); (3.1953125 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="12673190-521b-41bc-971b-ccf2c766779f" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
@@ -88,7 +78,7 @@
     <fieldShape Id="2e72c35c-5cfb-402f-8448-87444f286608" absoluteBounds="7, 3, 1.5, 0.75">
       <fieldMoniker Id="42094d69-b6b7-416a-aac6-52c3169b3cce" />
     </fieldShape>
-    <fieldConnector Id="ffa82676-89aa-4709-9cf3-bb2eb68c3cd8" edgePoints="[(5.625 : 2.343752); (6.5 : 2.343752); (6.5 : 2.75); (7.75 : 2.75); (7.75 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="ffa82676-89aa-4709-9cf3-bb2eb68c3cd8" edgePoints="[(5.625 : 2.3437525); (7.375 : 2.3437525); (7.375 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="138984d4-0fee-4f0a-a01f-c5a19ea4122d" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
@@ -98,7 +88,7 @@
     <fieldShape Id="c0d915a3-e1fd-4098-a1ba-50b67ae7a994" absoluteBounds="5.375, 0.5, 1.5, 0.75">
       <fieldMoniker Id="8e3e16f0-279f-4a31-a51a-d0911304b11a" />
     </fieldShape>
-    <fieldConnector Id="4b8789ee-7013-45d8-8601-76a963a0049f" edgePoints="[(5.5 : 1.75); (5.5 : 1.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="4b8789ee-7013-45d8-8601-76a963a0049f" edgePoints="[(5.5 : 1.75); (5.5 : 1.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="f6dc0312-4686-4f23-bc28-18e047fbfd78" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />
@@ -215,10 +205,10 @@
         <optionShapeMoniker Id="826b72b6-c7f9-4990-a5d5-b51a8d6554e9" />
       </nodes>
     </optionConnector>
-    <fieldShape Id="614a26c2-e20f-4804-8302-be6cc70646ae" absoluteBounds="7, 1.75, 1.5, 0.75">
+    <fieldShape Id="614a26c2-e20f-4804-8302-be6cc70646ae" absoluteBounds="3.75, 0.5, 1.5, 0.75">
       <fieldMoniker Id="cf9f3c77-57ab-4ee6-97e7-fcce5178ade0" />
     </fieldShape>
-    <fieldConnector Id="a8fb44fe-05ab-4b36-8897-34d07f8b0abf" edgePoints="[(5.625 : 1.875); (7 : 1.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <fieldConnector Id="a8fb44fe-05ab-4b36-8897-34d07f8b0abf" edgePoints="[(4.5 : 1.75); (4.5 : 1.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <formHasFieldsMoniker Id="1a688c52-93dd-4224-a12f-e989616e285d" />
       <nodes>
         <formShapeMoniker Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" />

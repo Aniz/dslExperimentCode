@@ -7,7 +7,7 @@ add Payment
 	show Insert,Update,Search,Remove,ListAll.
 	
 		
-	if Payment.PayPal->generateBoleto 	
+	if Payment. Debito->generateBoleto 	
 	if Payment.Credito->askCardInfo 	
 	if Payment.Avista->generateCarne 
 	
@@ -26,8 +26,7 @@ add Organizer
 		
 	show Insert,Update,Search,Remove,ListAll.
 	
-		
-	def askCardInfo 
+	
 	
 add Reviewer
 		
@@ -64,13 +63,13 @@ add Submission
 	show Search,Remove,ListAll.
 	
 		
-	def insertAttachment 
+	if Submission.Completa->insertAttachment 
 	
-add Speaker
+add Author
 		
 	
 		
-	show Insert,Update,Search,Remove,ListAll.
+	
 	
 	
 	
@@ -82,12 +81,4 @@ add CheckingCopy
 	
 		
 	if CheckingCopy.Atestado->checkingCopyAtestado 	
-	if CheckingCopy.Atestado->checkingCopyCertificado 
-	
-add User
-		
-	
-		
-	
-	
-	
+	if CheckingCopy.Certificado->checkingCopyCertificado 
