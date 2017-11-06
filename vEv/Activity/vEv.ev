@@ -1,0 +1,93 @@
+﻿
+	
+add Payment
+		
+	types  Avista,Debito,Credito.
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+		
+	if Payment.PayPal->generateBoleto 	
+	if Payment.Credito->askCardInfo 	
+	if Payment.Avista->generateCarne 
+	
+add User
+		
+	types Associado,Profissional,Estudante.
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+		
+	def sendBugTrackEmail 
+	
+add Organizer
+		
+	types ProgramChair,WorkshopChair,TutorialChair,ProceedingsChair,PanelChair.
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+		
+	def askCardInfo 
+	
+add Reviewer
+		
+	
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+		
+	def askCardInfo 
+	
+add Event
+		
+	
+		
+	
+	
+		
+	def program 	
+	def reportsFrequencyPerEvent 	
+	def importantDates 
+	
+add Activity
+		
+	types MiniCurso = Mini ,Tutorial,Painel,Workshop,MainTrack = hidden.
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+	
+	
+add Submission
+		
+	types Completa,Parcial.
+		
+	show Search,Remove,ListAll.
+	
+		
+	def insertAttachment 
+	
+add Speaker
+		
+	
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+	
+	
+add CheckingCopy
+		
+	types Atestado,Certificado.
+		
+	show Insert,Update,Search,Remove,ListAll.
+	
+		
+	if CheckingCopy.Atestado->checkingCopyAtestado 	
+	if CheckingCopy.Atestado->checkingCopyCertificado 
+	
+add User
+		
+	
+		
+	
+	
+	

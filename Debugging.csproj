@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.10318</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7774F3B7-D242-47C4-ACB6-367E4634050C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Debugging</RootNamespace>
+    <AssemblyName>Debugging</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Dsl\GeneratedCode\visualFormSchema.xsd">
+      <Link>visualFormSchema.xsd</Link>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Form\Bug\Bug.vForm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Form\Bug\Bug.vForm.diagram">
+      <DependentUpon>Bug.vForm</DependentUpon>
+    </None>
+    <None Include="Form\Bug\Bug.form">
+      <DependentUpon>Bug.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </None>
+    <None Include="vEv\Bug\Bug.visualEv">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vEv\Bug\Bug.visualEv.diagram">
+      <DependentUpon>Bug.visualEv</DependentUpon>
+    </None>
+    <None Include="vEv\Activity\Activity.visualEv">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vEv\Activity\Activity.visualEv.diagram">
+      <DependentUpon>Activity.visualEv</DependentUpon>
+    </None>
+    <None Include="Form\Activity\Activity.vForm">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Form\Activity\Activity.vForm.diagram">
+      <DependentUpon>Activity.vForm</DependentUpon>
+    </None>
+    <None Include="Form\Activity\visualFormReport.form">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>visualFormReport.tt</DependentUpon>
+    </None>
+    <None Include="Form\Activity\visualFormReport.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>visualFormReport.form</LastGenOutput>
+    </None>
+    <None Include="vEv\Bug\Bug.ev">
+      <DependentUpon>Bug.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </None>
+    <None Include="vEv\Activity\vEv.ev">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vEv.tt</DependentUpon>
+    </None>
+    <None Include="vShome\Bug\Bug.visSHome">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vShome\Bug\Bug.visSHome.diagram">
+      <DependentUpon>Bug.visSHome</DependentUpon>
+    </None>
+    <None Include="vShome\Bug\Bug.shome">
+      <DependentUpon>Bug.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </None>
+    <None Include="vShome\Activity\Activity.visSHome" />
+    <None Include="vShome\Activity\Activity.visSHome.diagram">
+      <DependentUpon>Activity.visSHome</DependentUpon>
+    </None>
+    <None Include="vShome\Activity\vShome.shome">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vShome.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4df5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Form\Bug\Bug.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Bug.form</LastGenOutput>
+    </None>
+    <Content Include="vEv\Bug\Bug.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Bug.ev</LastGenOutput>
+    </Content>
+    <Content Include="vEv\Activity\vEv.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>vEv.ev</LastGenOutput>
+    </Content>
+    <Content Include="vShome\Bug\Bug.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Bug.shome</LastGenOutput>
+    </Content>
+    <Content Include="vShome\Activity\vShome.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>vShome.shome</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,55 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".shome" #>
+<#@ vShome processor="vShomeDirectiveProcessor" requires="fileName='Activity.visSHome'"  #>
+
+Report template
+
+Create <#= this.ModelRoot.Name #> <#= this.ModelRoot.Port #>
+<#
+String alternatives = "";
+foreach (Device device in this.ModelRoot.Devices)
+  {
+  #>
+  set <#= device.Name #> <#= device.DeviceType #> as <#= device.ReturnType #>
+  <#
+  }
+   foreach (Feature feature in this.ModelRoot.Features)
+  {
+#>
+	
+	use <#= feature.FeatureType #> <#= feature.FeatureName #>
+	<# if (feature.Father != null ){
+	#>
+	extends: <#= feature.Father.FeatureName #>			
+	<#}#>
+	<#
+	alternatives = "";
+	foreach (Feature fe in feature.Alternatives)
+	{
+	if(fe.FeatureName.ToString() != String.Empty){
+	alternatives = "alternatives: " + fe.FeatureName.ToString();
+	}}
+	foreach (Feature fe in feature.SourceFeatures)
+	{
+	if(fe.FeatureName.ToString() != String.Empty){
+	alternatives = "alternatives: " + fe.FeatureName.ToString();
+	}}
+	#>
+	<#= alternatives #>
+	<# if (feature.Brother != null ){
+	#>
+	brother: <#= feature.Brother.FeatureName #>			
+	<#}#>
+	<# if (feature.Actuator != null){ #>
+	actuator: <#= feature.Actuator.Name #>
+	<#}#>
+	<# if (feature.Sensor != null){ #>
+	sensor: <#= feature.Sensor.Name #>
+	<#}#>
+	<# if (feature.Serial != ""){ #>
+	serial: <#= feature.Serial #>
+	<#}#>
+	
+	<#
+  }
+#>
