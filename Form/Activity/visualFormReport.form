@@ -5,7 +5,7 @@
 Generated material. Generating code in C#.
 
 
-  Create User Account
+  Create UserAccount
   
 	add text Name 
 
@@ -13,30 +13,21 @@ Generated material. Generating code in C#.
 
 options: 
 
-		Area 5
-		
-		Area 1
-		
-		Area 2
-		
-		Area 3
-		
-		Area 4
-		
+		Area5
+		Area1
+		Area2
+		Area3
+		Area4;
 	add email Email 
 
-	add selectBox Civil Status 
+	add selectBox CivilStatus 
 
 options: 
 
 		Divorced
-		
 		Single
-		
 		Maried
-		
-		
-		
+		Widowed;
 	add textarea Bio 
 
 	add date Birthday 
@@ -46,9 +37,7 @@ options:
 options: 
 
 		Male
-		
-		Female
-		
+		Female;
 	add check Send me notifications 
 
 	add integer Age 

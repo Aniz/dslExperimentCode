@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <formModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b97e0104-f326-4064-8eb6-73dd91bfaf8e" xmlns="http://schemas.microsoft.com/dsltools/visualForm">
   <elements>
-    <form Id="487f5235-b908-491c-83a3-f0c30ab15f04" name="User Account">
+    <form Id="487f5235-b908-491c-83a3-f0c30ab15f04" name="UserAccount">
       <fields>
         <formHasFields Id="7b4d58f4-d222-4a86-b63b-0abfa38bbbe1">
           <field Id="071a8601-a0fe-4ea5-a73f-e132f17603c8" name="Name" type="text" required="true" />
@@ -10,19 +10,19 @@
           <field Id="02c31240-8196-4a17-a556-c1aa9387143d" name="Interests" type="comboBox" required="false">
             <options>
               <fieldHasOptions Id="dd32507e-a260-44f6-bb9a-4e6bda7ecd53">
-                <option Id="aeb000b3-5885-4e59-88ab-6d66b8560763" name="Area 5" />
+                <option Id="aeb000b3-5885-4e59-88ab-6d66b8560763" name="Area5" />
               </fieldHasOptions>
               <fieldHasOptions Id="e5e9d730-2cef-4868-88ec-5ba7418c2afa">
-                <option Id="80095731-7396-4378-978b-b172a3b551d3" name="Area 1" />
+                <option Id="80095731-7396-4378-978b-b172a3b551d3" name="Area1" />
               </fieldHasOptions>
               <fieldHasOptions Id="7c8cb227-3d73-4f65-97a6-53b406569e20">
-                <option Id="0b9e1ea1-acdb-4da9-b9c2-403b8c05bba0" name="Area 2" />
+                <option Id="0b9e1ea1-acdb-4da9-b9c2-403b8c05bba0" name="Area2" />
               </fieldHasOptions>
               <fieldHasOptions Id="33cde06d-58d7-4a52-aa50-6dc8c8bed4dc">
-                <option Id="68a6e91f-12ef-43b6-9cc1-908fb0e420f6" name="Area 3" />
+                <option Id="68a6e91f-12ef-43b6-9cc1-908fb0e420f6" name="Area3" />
               </fieldHasOptions>
               <fieldHasOptions Id="f865ed07-9383-4254-bed8-85697481b9ee">
-                <option Id="e3bf4890-bc29-4a81-addd-711e1dd09074" name="Area 4" />
+                <option Id="e3bf4890-bc29-4a81-addd-711e1dd09074" name="Area4" />
               </fieldHasOptions>
             </options>
           </field>
@@ -31,7 +31,7 @@
           <field Id="5800220e-17fd-45a5-a950-a01a63328725" name="Email" type="email" required="true" />
         </formHasFields>
         <formHasFields Id="12673190-521b-41bc-971b-ccf2c766779f">
-          <field Id="85ab2011-534a-48b9-8707-f65cc776165c" name="Civil Status" type="selectBox" required="false">
+          <field Id="85ab2011-534a-48b9-8707-f65cc776165c" name="CivilStatus" type="selectBox" required="false">
             <options>
               <fieldHasOptions Id="55a4d251-8933-4b54-8431-49cb459346ce">
                 <option Id="00f63e60-124f-46bf-a453-5fde43e931a4" name="Divorced" />
@@ -43,7 +43,7 @@
                 <option Id="1d00dffe-1575-46b7-9245-e0f9d6c8951a" name="Maried" />
               </fieldHasOptions>
               <fieldHasOptions Id="22b435e8-b36c-4522-a2b9-e5e768df3882">
-                <option Id="df62fa3b-ed0e-487a-8789-264b46974cb4" />
+                <option Id="df62fa3b-ed0e-487a-8789-264b46974cb4" name="Widowed" />
               </fieldHasOptions>
             </options>
           </field>

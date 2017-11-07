@@ -3,7 +3,7 @@
   <formModelMoniker Id="b97e0104-f326-4064-8eb6-73dd91bfaf8e" />
   <nestedChildShapes>
     <formShape Id="1282ab66-1075-483b-8b8a-3a82fbe70bf2" absoluteBounds="3.625, 1.75, 2, 0.75">
-      <formMoniker name="/b97e0104-f326-4064-8eb6-73dd91bfaf8e/User Account" />
+      <formMoniker name="/b97e0104-f326-4064-8eb6-73dd91bfaf8e/UserAccount" />
     </formShape>
     <fieldShape Id="5e1fdfc8-f841-4795-848e-2f803b413f82" absoluteBounds="0.5, 0.5, 1.5, 0.75">
       <fieldMoniker Id="071a8601-a0fe-4ea5-a73f-e132f17603c8" />

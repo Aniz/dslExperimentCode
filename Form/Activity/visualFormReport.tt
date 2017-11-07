@@ -17,10 +17,9 @@ Generated material. Generating code in C#.
 	add <#= field.Type #> <#= field.Name #> 
 <# if( field.Options.Count > 0 ){#>
 options: 
-<#  } foreach (Option option in field.Options)
+<# } foreach (Option option in field.Options)
 	{#>
-		<#= option.Name #>
-		<#}
+		<#= option.Name #><#}#><# if( field.Options.Count > 0 ){#>;<#}
 	}   
   }
 #>
