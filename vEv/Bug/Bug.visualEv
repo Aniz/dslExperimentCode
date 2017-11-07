@@ -3,14 +3,14 @@
   <elements>
     <option Id="b0a07b0d-e890-404b-9e1e-e708f68694b7" optionType="Payment">
       <functions>
-        <optionHasFunctions Id="ad09e4a3-8af2-40c0-bbaf-3da55cb511bd" var="PayPal">
-          <function Id="7a8e680e-4555-473e-88fe-d5f3c680d7e6" name="generateBoleto" />
+        <optionHasFunctions Id="ad09e4a3-8af2-40c0-bbaf-3da55cb511bd">
+          <function Id="7a8e680e-4555-473e-88fe-d5f3c680d7e6" name="generateBoleto" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="6ff3ba4c-2a78-4499-9e17-3f7d6d43a28e" var="Credito">
-          <function Id="6ed348e7-1a9e-4d9d-8365-c0f4310419d6" name="askCardInfo" />
+        <optionHasFunctions Id="6ff3ba4c-2a78-4499-9e17-3f7d6d43a28e">
+          <function Id="6ed348e7-1a9e-4d9d-8365-c0f4310419d6" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="a231dd57-d220-466e-9fe5-643aa9f5f347" var="Avista">
-          <function Id="cc8f0ef8-d2ee-48a9-9993-db3a5db55e23" name="generateCarne" />
+        <optionHasFunctions Id="a231dd57-d220-466e-9fe5-643aa9f5f347">
+          <function Id="cc8f0ef8-d2ee-48a9-9993-db3a5db55e23" name="generateCarne" hasView="false" />
         </optionHasFunctions>
       </functions>
       <properties>
@@ -33,7 +33,7 @@
     <option Id="21083822-f835-435e-85f5-27b5367ce412" optionType="User">
       <functions>
         <optionHasFunctions Id="43de66db-0986-40cc-b8c4-f0d932157a1e">
-          <function Id="93ea94d3-129c-4fcb-aa4c-bc97cf21cfbb" name="sendBugTrackEmail" />
+          <function Id="93ea94d3-129c-4fcb-aa4c-bc97cf21cfbb" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
       <properties>
@@ -56,7 +56,7 @@
     <option Id="d72b560d-ff55-4f8d-b796-9cf5fe406f39" optionType="Organizer">
       <functions>
         <optionHasFunctions Id="a95a6d37-ba9a-4a24-ab06-f052e114d2a4">
-          <function Id="0e6db67b-30ee-4773-94f0-e962936ba0e6" name="askCardInfo" />
+          <function Id="0e6db67b-30ee-4773-94f0-e962936ba0e6" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
       <properties>
@@ -85,7 +85,7 @@
     <option Id="d39a6520-627c-46b8-9ce5-71d7ba5a2acf" optionType="Reviewer">
       <functions>
         <optionHasFunctions Id="25fa66d4-a704-4b0b-a4e4-95254f1c1024">
-          <function Id="ba1f61ec-a7b4-4212-ba08-3ebcc105f713" name="askCardInfo" />
+          <function Id="ba1f61ec-a7b4-4212-ba08-3ebcc105f713" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
       <types>
@@ -97,13 +97,13 @@
     <option Id="f42af1dc-7fa7-4e2c-a776-66a0fd28a8ae" optionType="Event">
       <functions>
         <optionHasFunctions Id="67bbaa17-b175-413f-8342-326509634401">
-          <function Id="56c220d1-5786-4707-8fc7-1e34eb1dd40d" name="program" />
+          <function Id="56c220d1-5786-4707-8fc7-1e34eb1dd40d" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
         <optionHasFunctions Id="06c2d149-6956-4624-9c0b-cbe3c5875920">
-          <function Id="1aec2669-3302-40d6-a8c1-7366f7d410fb" name="reportsFrequencyPerEvent" />
+          <function Id="1aec2669-3302-40d6-a8c1-7366f7d410fb" name="reportsFrequencyPerEvent" hasView="false" />
         </optionHasFunctions>
         <optionHasFunctions Id="38e2f0ea-cfac-48f6-be35-293f0adf308a">
-          <function Id="f995459b-d302-4f5c-a462-cb05e122bcca" name="importantDates" />
+          <function Id="f995459b-d302-4f5c-a462-cb05e122bcca" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
     </option>
@@ -134,7 +134,7 @@
     <option Id="6fad9de0-906d-46e6-9d3b-ba2c48c1de97" optionType="Submission">
       <functions>
         <optionHasFunctions Id="0f2fa484-4624-480b-9685-e0dcefdd421c">
-          <function Id="1a5f06a3-55dd-472b-939f-db4eb1438a3c" name="insertAttachment" />
+          <function Id="1a5f06a3-55dd-472b-939f-db4eb1438a3c" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
       <properties>
@@ -166,11 +166,11 @@
     </option>
     <option Id="657d4f3e-1581-42bf-bdf8-bf4c279d8dcc" optionType="CheckingCopy">
       <functions>
-        <optionHasFunctions Id="82474b31-d029-401e-a3c8-634106e0fa4b" var="Atestado">
-          <function Id="5a828baf-b25f-447f-ad33-fc53a2f6c940" name="checkingCopyAtestado" />
+        <optionHasFunctions Id="82474b31-d029-401e-a3c8-634106e0fa4b">
+          <function Id="5a828baf-b25f-447f-ad33-fc53a2f6c940" name="checkingCopyAtestado" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="f7ec301b-b415-4bab-b04c-7f7a4d2946a2" var="Atestado">
-          <function Id="966f33be-365b-4a63-bf17-eddcead08ae0" name="checkingCopyCertificado" />
+        <optionHasFunctions Id="f7ec301b-b415-4bab-b04c-7f7a4d2946a2">
+          <function Id="966f33be-365b-4a63-bf17-eddcead08ae0" name="checkingCopyCertificado" hasView="false" />
         </optionHasFunctions>
       </functions>
       <properties>

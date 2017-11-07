@@ -1,84 +1,75 @@
 ﻿
-	
-add Payment
-		
-	types  Avista,Debito,Credito.
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	if Payment. Debito->generateBoleto 	
-	if Payment.Credito->askCardInfo 	
-	if Payment.Avista->generateCarne 
+Create RiseEvents rise password
 	
 add User
 		
-	types Associado,Profissional,Estudante.
+	types Estudante,Profissional,Associado.
 		
 	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def sendBugTrackEmail 
-	
+		 def User->userSendBugTrackEmail	
 add Organizer
 		
-	types ProgramChair,WorkshopChair,TutorialChair,ProceedingsChair,PanelChair.
+	types GeneralChair,ProgramChair,WorkshopChair,TutorialChair,ProceedingsChair,PanelChair.
 		
 	show Insert,Update,Search,Remove,ListAll.
-	
-	
-	
-add Reviewer
 		
-	
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def askCardInfo 
-	
 add Event
 		
 	
 		
-	
-	
-		
-	def program 	
-	def reportsFrequencyPerEvent 	
-	def importantDates 
-	
+	show Insert,Update,Search,Remove,ListAll,Management.
+		 def Event->eventImportantDates	 def Event->reportsFrequencyPerEvent	 def Event->eventProgram	
 add Activity
 		
-	types MiniCurso = Mini ,Tutorial,Painel,Workshop,MainTrack = hidden.
+	types MiniCurso,Tutorial,Painel,Worshop,MainTrack.
 		
-	show Insert,Update,Search,Remove,ListAll.
-	
-	
-	
-add Submission
-		
-	types Completa,Parcial.
-		
-	show Search,Remove,ListAll.
-	
-		
-	if Submission.Completa->insertAttachment 
-	
+	show Insert,Update,Search,Remove,ListAll,Management.
+		 def Activity->reportsFrequencyPerActivity	 def Activity->reportsListofAuthors	
 add Author
 		
 	
 		
 	
-	
-	
-	
-add CheckingCopy
 		
-	types Atestado,Certificado.
+add Speaker
+		
+	
 		
 	show Insert,Update,Search,Remove,ListAll.
+		
+add Reviewer
+		
 	
 		
-	if CheckingCopy.Atestado->checkingCopyAtestado 	
-	if CheckingCopy.Certificado->checkingCopyCertificado 
+	show Insert,Update,Search,Remove,ListAll.
+		 if Reviewer->reviewerRoundofReview	
+add Receipt
+		
+	
+		
+	show Management.
+		
+add Assignment
+		
+	
+		
+	show Insert,Update,Search,Remove,ListAll,Management.
+		 if Assignment->notificationsDeadline	 if Assignment->notificationsAceptanceRejection	 if Assignment->notificationPaperAssignment	 if Assignment->assignmentInterestConflict	
+add Submission
+		
+	types Parcial,Completa.
+		
+	show Search,Remove,ListAll.
+		 def Submission->submissionPartialInsert	 if Submission.Completa->submissionInsertAttachment	 def Submission->submissionCompleteInsert	
+add CheckingCopy
+		
+	types Certificado,Atestado.
+		
+	show Insert,Update,Search,Remove,ListAll,Management.
+		 if CheckingCopy.Atestado->checkingCopyAtestado	 if CheckingCopy.Certificado->checkingCopyCertificado	
+add Payment
+		
+	types Avista,Debito,Credito.
+		
+	show Insert,Update,Search,Remove,ListAll,Management.
+		 if Payment.Avista->generateBoleto	 if Payment.Credito->askCardInfo	 if Payment.Debito->generateCarne

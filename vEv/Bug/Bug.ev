@@ -1,4 +1,5 @@
 ﻿
+Create   
 	
 add Payment
 		
@@ -7,9 +8,9 @@ add Payment
 	show Insert,Update,Search,Remove,ListAll.
 	
 		
-	if Payment.PayPal->generateBoleto 	
-	if Payment.Credito->askCardInfo 	
-	if Payment.Avista->generateCarne 
+	def generateBoleto 	
+	def askCardInfo 	
+	def generateCarne 
 	
 add User
 		
@@ -18,7 +19,7 @@ add User
 	show Insert,Update,Search,Remove,ListAll.
 	
 		
-	def sendBugTrackEmail 
+	def askCardInfo 
 	
 add Organizer
 		
@@ -45,9 +46,9 @@ add Event
 	
 	
 		
-	def program 	
+	def askCardInfo 	
 	def reportsFrequencyPerEvent 	
-	def importantDates 
+	def askCardInfo 
 	
 add Activity
 		
@@ -64,7 +65,7 @@ add Submission
 	show Search,Remove,ListAll.
 	
 		
-	def insertAttachment 
+	def askCardInfo 
 	
 add Speaker
 		
@@ -81,8 +82,8 @@ add CheckingCopy
 	show Insert,Update,Search,Remove,ListAll.
 	
 		
-	if CheckingCopy.Atestado->checkingCopyAtestado 	
-	if CheckingCopy.Atestado->checkingCopyCertificado 
+	def checkingCopyAtestado 	
+	def checkingCopyCertificado 
 	
 add Payment
 		

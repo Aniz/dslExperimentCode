@@ -4,6 +4,7 @@
 <#@ assembly name="System.Core" #>
 <#@ import namespace="System.Linq" #>
 
+Create <#= this.EvModel.Name #> <#= this.EvModel.Email #> <#= this.EvModel.Password #>
 <#
 foreach (Option element in this.EvModel.Elements)
 {
@@ -34,11 +35,8 @@ add <#= element.OptionType #>
 
 	#>	
 	<#= show #>
-	
 	<# foreach(OptionHasFunctions assoc in OptionHasFunctions.GetLinksToFunctions(element)){ #>
-	
-	<# if (assoc.Var != string.Empty) { #>if <#= assoc.Option.OptionType #>.<#=assoc.Var #>-><#= assoc.Function.Name #> <# } else { #>def <#= assoc.Function.Name #> <# } #><# } #>
-
+	<# if (assoc.Function.hasView) { #> def <# }else{ #> if <# } #><#= assoc.Option.OptionType #><# if (assoc.Param != string.Empty){ #>.<#=assoc.Param #><#}#>-><#= assoc.Function.Name #><# } #>
 <#    
 }
 #>
