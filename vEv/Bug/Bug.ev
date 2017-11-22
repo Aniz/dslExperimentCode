@@ -6,89 +6,76 @@ add Payment
 	types  Avista,Debito,Credito.
 		
 	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def generateBoleto 	
-	def askCardInfo 	
-	def generateCarne 
-	
-add User
-		
-	types Associado,Profissional,Estudante.
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def askCardInfo 
-	
-add Organizer
-		
-	types ProgramChair,WorkshopChair,TutorialChair,ProceedingsChair,PanelChair.
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def askCardInfo 
-	
-add Reviewer
-		
-	
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def askCardInfo 
-	
+		 if Payment.PayPal->generateBoleto	 if Payment.Credito->askCardInfo	 if Payment.Debito->generateCarne	
 add Event
 		
 	
 		
-	
-	
-		
-	def askCardInfo 	
-	def reportsFrequencyPerEvent 	
-	def askCardInfo 
-	
+	show Insert,Update,Search,Remove,ListAll.
+		 def Event->eventProgram	 def Event->reportsFrequencyPerEvent	 def Event->eventImportantDates	
 add Activity
 		
-	types MiniCurso = Mini ,Tutorial,Painel,Workshop,MainTrack = hidden.
+	types MiniCurso ,Tutorial,Painel,Workshop,MainTrack .
 		
 	show Insert,Update,Search,Remove,ListAll.
-	
-	
-	
+		 def Activity->reportsFrequencyPerActivity	 def Activity->reportsListOfAuthors	
 add Submission
 		
 	types Completa,Parcial.
 		
 	show Search,Remove,ListAll.
-	
-		
-	def askCardInfo 
-	
-add Speaker
-		
-	
-		
-	show Insert,Update,Search,Remove,ListAll.
-	
-	
-	
+		 if Submission->submissionInsertAttachment	 def Submission->submissionPartialInsert	 def Submission->submissionCompleteInsert	
 add CheckingCopy
 		
 	types Atestado,Certificado.
 		
 	show Insert,Update,Search,Remove,ListAll.
-	
-		
-	def checkingCopyAtestado 	
-	def checkingCopyCertificado 
-	
+		 if CheckingCopy.Atestado->checkingCopyAtestado	 if CheckingCopy.Atestado->checkingCopyCertificado	
 add Payment
 		
 	
 		
+	show Insert,Update,Search,Remove,ListAll.
+		
+add User
+		
+	types Estudante,Profissional,Associado.
+		
+	show Insert,Update,Search,Remove,ListAll.
+		 def User->userSendBugTrackEmail	
+add Organizer
+		
+	types GeneralChair,ProgramChair,WorkshopChair,TutorialChair,ProceedingsChair,PanelChair.
+		
+	show Insert,Update,Search,Remove,ListAll.
+		
+add Speaker
+		
 	
+		
+	show Insert,Update,Search,Remove,ListAll.
+		
+add Reviewer
+		
 	
+		
+	show Insert,Update,Search,Remove,ListAll.
+		 if Reviewer->reviewerRoundofReview	 if Reviewer->askCardInfo	
+add Author
+		
 	
+		
+	
+		
+add Receipt
+		
+	
+		
+	show Management.
+		
+add Assignment
+		
+	
+		
+	show Insert,Update,Search,Remove,ListAll.
+		 if Assignment->notificationsDeadline	 if Assignment->assignmentInterestConflict	 if Assignment->notificationsAceptanceRejection	 if Assignment->notificationPaperAssignment

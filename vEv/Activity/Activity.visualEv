@@ -114,7 +114,7 @@
           <function Id="dff09794-42ee-463d-a172-87ce0457750c" name="reportsFrequencyPerActivity" hasView="true" />
         </optionHasFunctions>
         <optionHasFunctions Id="62338857-f738-4732-90c7-8db99d44bc68">
-          <function Id="f47cabda-f567-4f6f-b68d-34fc16c534fc" name="reportsListofAuthors" hasView="true" />
+          <function Id="f47cabda-f567-4f6f-b68d-34fc16c534fc" name="reportsListOfAuthors" hasView="true" />
         </optionHasFunctions>
       </functions>
       <properties>

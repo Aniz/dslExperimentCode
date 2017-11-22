@@ -24,7 +24,7 @@ add Activity
 	types MiniCurso,Tutorial,Painel,Worshop,MainTrack.
 		
 	show Insert,Update,Search,Remove,ListAll,Management.
-		 def Activity->reportsFrequencyPerActivity	 def Activity->reportsListofAuthors	
+		 def Activity->reportsFrequencyPerActivity	 def Activity->reportsListOfAuthors	
 add Author
 		
 	

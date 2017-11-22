@@ -3,13 +3,13 @@
   <elements>
     <option Id="b0a07b0d-e890-404b-9e1e-e708f68694b7" optionType="Payment">
       <functions>
-        <optionHasFunctions Id="ad09e4a3-8af2-40c0-bbaf-3da55cb511bd">
+        <optionHasFunctions Id="ad09e4a3-8af2-40c0-bbaf-3da55cb511bd" param="PayPal">
           <function Id="7a8e680e-4555-473e-88fe-d5f3c680d7e6" name="generateBoleto" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="6ff3ba4c-2a78-4499-9e17-3f7d6d43a28e">
+        <optionHasFunctions Id="6ff3ba4c-2a78-4499-9e17-3f7d6d43a28e" param="Credito">
           <function Id="6ed348e7-1a9e-4d9d-8365-c0f4310419d6" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="a231dd57-d220-466e-9fe5-643aa9f5f347">
+        <optionHasFunctions Id="a231dd57-d220-466e-9fe5-643aa9f5f347" param="Debito">
           <function Id="cc8f0ef8-d2ee-48a9-9993-db3a5db55e23" name="generateCarne" hasView="false" />
         </optionHasFunctions>
       </functions>
@@ -30,87 +30,36 @@
         </optionHasTypes>
       </types>
     </option>
-    <option Id="21083822-f835-435e-85f5-27b5367ce412" optionType="User">
-      <functions>
-        <optionHasFunctions Id="43de66db-0986-40cc-b8c4-f0d932157a1e">
-          <function Id="93ea94d3-129c-4fcb-aa4c-bc97cf21cfbb" name="askCardInfo" hasView="false" />
-        </optionHasFunctions>
-      </functions>
-      <properties>
-        <optionHasProperties Id="2e5edafc-0416-455c-a4c8-0a559c85b18e">
-          <property Id="cf17411b-5220-47d1-9b71-ed6981c69561" name="Associado" />
-        </optionHasProperties>
-        <optionHasProperties Id="079839b7-76a3-478c-94aa-10b1c72c4e0f">
-          <property Id="a1f03013-2596-48c3-8002-6dffa53f6e33" name="Profissional" />
-        </optionHasProperties>
-        <optionHasProperties Id="dc437872-18d4-432b-b683-d7b8ac2b2a72">
-          <property Id="a00d09a4-eb43-46bb-97d7-34251da827f5" name="Estudante" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="68e0ece6-0cb3-4be7-afa0-23f1f42bc39e">
-          <type Id="adf3ca0e-0d2c-461b-ac8c-94fc9cf6dc12" name="All" />
-        </optionHasTypes>
-      </types>
-    </option>
-    <option Id="d72b560d-ff55-4f8d-b796-9cf5fe406f39" optionType="Organizer">
-      <functions>
-        <optionHasFunctions Id="a95a6d37-ba9a-4a24-ab06-f052e114d2a4">
-          <function Id="0e6db67b-30ee-4773-94f0-e962936ba0e6" name="askCardInfo" hasView="false" />
-        </optionHasFunctions>
-      </functions>
-      <properties>
-        <optionHasProperties Id="fba37d0e-039f-43cc-8bfa-9803e39dd32a">
-          <property Id="2fb54cf5-af87-49ab-9b9d-107c5b668017" name="ProgramChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="fcd79096-3263-480a-9a74-39a09bcdd69d">
-          <property Id="15f3118d-8705-442c-a963-15efdb853881" name="WorkshopChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="bf052775-4b70-4e84-ba7d-4755a74a8e25">
-          <property Id="1f27b0be-948b-47ab-a26d-0d21e1aa1270" name="TutorialChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="f2cdee13-9bc2-4c46-8f76-8b51160de05c">
-          <property Id="8b841d22-5511-4235-bfc0-400ce1cabff2" name="ProceedingsChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="c21870d8-5e8c-4b18-b02d-25dd1495144c">
-          <property Id="086ebf23-6a7b-4798-b465-036e62cacd18" name="PanelChair" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="1497c1c2-7cc1-4368-9b80-90cc901f6994">
-          <type Id="fc028a1f-60fe-443e-998a-47a185814629" name="All" />
-        </optionHasTypes>
-      </types>
-    </option>
-    <option Id="d39a6520-627c-46b8-9ce5-71d7ba5a2acf" optionType="Reviewer">
-      <functions>
-        <optionHasFunctions Id="25fa66d4-a704-4b0b-a4e4-95254f1c1024">
-          <function Id="ba1f61ec-a7b4-4212-ba08-3ebcc105f713" name="askCardInfo" hasView="false" />
-        </optionHasFunctions>
-      </functions>
-      <types>
-        <optionHasTypes Id="11c363df-93dc-42a0-8f0d-78590b0188a8">
-          <type Id="29f0905b-82d5-4204-81f6-31abaa7fd314" name="All" />
-        </optionHasTypes>
-      </types>
-    </option>
     <option Id="f42af1dc-7fa7-4e2c-a776-66a0fd28a8ae" optionType="Event">
       <functions>
         <optionHasFunctions Id="67bbaa17-b175-413f-8342-326509634401">
-          <function Id="56c220d1-5786-4707-8fc7-1e34eb1dd40d" name="askCardInfo" hasView="false" />
+          <function Id="56c220d1-5786-4707-8fc7-1e34eb1dd40d" name="eventProgram" hasView="true" />
         </optionHasFunctions>
         <optionHasFunctions Id="06c2d149-6956-4624-9c0b-cbe3c5875920">
-          <function Id="1aec2669-3302-40d6-a8c1-7366f7d410fb" name="reportsFrequencyPerEvent" hasView="false" />
+          <function Id="1aec2669-3302-40d6-a8c1-7366f7d410fb" name="reportsFrequencyPerEvent" hasView="true" />
         </optionHasFunctions>
         <optionHasFunctions Id="38e2f0ea-cfac-48f6-be35-293f0adf308a">
-          <function Id="f995459b-d302-4f5c-a462-cb05e122bcca" name="askCardInfo" hasView="false" />
+          <function Id="f995459b-d302-4f5c-a462-cb05e122bcca" name="eventImportantDates" hasView="true" />
         </optionHasFunctions>
       </functions>
+      <types>
+        <optionHasTypes Id="beb01d68-dd4e-4ec8-81fd-206ec85467ba">
+          <type Id="b8f9c8a6-11cc-4ef3-9047-2a8957432e0e" name="All" />
+        </optionHasTypes>
+      </types>
     </option>
     <option Id="26318b58-6f03-4a4b-b83f-df3b5373c93e" optionType="Activity">
+      <functions>
+        <optionHasFunctions Id="e4a95405-4ebf-45cd-845e-cc28b52a983d">
+          <function Id="530758b9-16cf-4e8d-b2e2-f435da0b1e7c" name="reportsFrequencyPerActivity" hasView="true" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="63e39436-900a-47be-95f6-4fd7dd06ea46">
+          <function Id="fb6b4f97-c9df-4128-ba13-1afcd1cfc01d" name="reportsListOfAuthors" hasView="true" />
+        </optionHasFunctions>
+      </functions>
       <properties>
         <optionHasProperties Id="09c239ba-f3af-4f8f-9c66-19ae798a697a">
-          <property Id="3ba5d00a-39ce-42bc-bb86-13893fcdb39c" name="MiniCurso = Mini " />
+          <property Id="3ba5d00a-39ce-42bc-bb86-13893fcdb39c" name="MiniCurso " />
         </optionHasProperties>
         <optionHasProperties Id="2c5a51f7-add4-4754-8d1e-54a564afd6b5">
           <property Id="91944140-13bb-42b4-9a4b-fa4c8ae08a26" name="Tutorial" />
@@ -122,7 +71,7 @@
           <property Id="662a3faf-6f0a-49bf-9c51-8a4403890f4f" name="Workshop" />
         </optionHasProperties>
         <optionHasProperties Id="e4ef132d-892b-41cc-9437-bca3552ee0d6">
-          <property Id="4ac29766-bbb0-4cbc-be3d-2a8ec2c41904" name="MainTrack = hidden" />
+          <property Id="4ac29766-bbb0-4cbc-be3d-2a8ec2c41904" name="MainTrack " />
         </optionHasProperties>
       </properties>
       <types>
@@ -134,7 +83,13 @@
     <option Id="6fad9de0-906d-46e6-9d3b-ba2c48c1de97" optionType="Submission">
       <functions>
         <optionHasFunctions Id="0f2fa484-4624-480b-9685-e0dcefdd421c">
-          <function Id="1a5f06a3-55dd-472b-939f-db4eb1438a3c" name="askCardInfo" hasView="false" />
+          <function Id="1a5f06a3-55dd-472b-939f-db4eb1438a3c" name="submissionInsertAttachment" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="76220e02-561d-441f-8350-d12200ba0897">
+          <function Id="5f9c65d4-bd4f-42e5-967a-8a781618ad94" name="submissionPartialInsert" hasView="true" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="c064237c-65b1-4c8e-8988-b5a4a4b0c272">
+          <function Id="707fb40e-a52e-45df-85bf-27ffdc26f13d" name="submissionCompleteInsert" hasView="true" />
         </optionHasFunctions>
       </functions>
       <properties>
@@ -157,19 +112,12 @@
         </optionHasTypes>
       </types>
     </option>
-    <option Id="9b032f4a-e184-499a-95df-a6daab37b841" optionType="Speaker">
-      <types>
-        <optionHasTypes Id="6ee9bdb1-dc87-4e2c-aea9-31dde881a3f5">
-          <type Id="0c14c218-c3e0-4783-aa28-9295b622cb67" name="All" />
-        </optionHasTypes>
-      </types>
-    </option>
     <option Id="657d4f3e-1581-42bf-bdf8-bf4c279d8dcc" optionType="CheckingCopy">
       <functions>
-        <optionHasFunctions Id="82474b31-d029-401e-a3c8-634106e0fa4b">
+        <optionHasFunctions Id="82474b31-d029-401e-a3c8-634106e0fa4b" param="Atestado">
           <function Id="5a828baf-b25f-447f-ad33-fc53a2f6c940" name="checkingCopyAtestado" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="f7ec301b-b415-4bab-b04c-7f7a4d2946a2">
+        <optionHasFunctions Id="f7ec301b-b415-4bab-b04c-7f7a4d2946a2" param="Atestado">
           <function Id="966f33be-365b-4a63-bf17-eddcead08ae0" name="checkingCopyCertificado" hasView="false" />
         </optionHasFunctions>
       </functions>
@@ -187,6 +135,161 @@
         </optionHasTypes>
       </types>
     </option>
-    <option Id="ec6f0826-45b2-4f81-83b9-60516010fb92" optionType="Payment" />
+    <option Id="ec6f0826-45b2-4f81-83b9-60516010fb92" optionType="Payment">
+      <types>
+        <optionHasTypes Id="b9473ba2-17e1-4c41-b6d4-7090fbbe6509">
+          <type Id="75972961-0777-4141-83e7-59597fae72f2" name="All" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="0122993d-563e-4933-9f03-e51070a422fa" optionType="User">
+      <functions>
+        <optionHasFunctions Id="90f9f7f7-2846-4588-8c9a-cd4d5896e6ce">
+          <function Id="9920df3c-e58d-4dd9-a6fa-d593e2213ec6" name="userSendBugTrackEmail" hasView="true" />
+        </optionHasFunctions>
+      </functions>
+      <properties>
+        <optionHasProperties Id="ff9ab933-db1b-418f-81ce-782ad658c45d">
+          <property Id="fa92ac31-5525-4760-801c-6419e5b31b8c" name="Estudante" />
+        </optionHasProperties>
+        <optionHasProperties Id="03837b79-8336-4cd8-a86d-1474077e55bf">
+          <property Id="d0ba0f59-d1cf-4d89-bbea-76420d0c994f" name="Profissional" />
+        </optionHasProperties>
+        <optionHasProperties Id="a2b13e96-9344-4277-b566-159b408865ff">
+          <property Id="6e2ea3ec-6fd4-41c0-b8c5-6920999a8ad9" name="Associado" />
+        </optionHasProperties>
+      </properties>
+      <types>
+        <optionHasTypes Id="d1c0890d-c902-4f70-ae20-93cc24f0f158">
+          <type Id="a62084d4-1a41-4913-916b-1b017998cb43" name="Insert" />
+        </optionHasTypes>
+        <optionHasTypes Id="87970d13-217e-4a49-9702-cbadb7f821ea">
+          <type Id="3f95d8e4-7a73-443c-8a42-dd7a3e50b402" name="Update" />
+        </optionHasTypes>
+        <optionHasTypes Id="520c4d16-a11d-420c-a33f-7ef0d561f313">
+          <type Id="5ddbb1a2-84b4-4980-b3b8-b06c6878859c" name="Search" />
+        </optionHasTypes>
+        <optionHasTypes Id="9173c3e5-a82b-4db0-96b2-bdfded7bef96">
+          <type Id="482a82bd-8952-4d2c-8702-2eea85cd4ca4" name="Remove" />
+        </optionHasTypes>
+        <optionHasTypes Id="9b0325df-5caf-45c0-bdfc-29b28b91668b">
+          <type Id="f99362d1-8995-4445-83a2-c777498f8f7f" name="ListAll" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="4fdacd59-48eb-4647-a8a0-79a2827b8c42" optionType="Organizer">
+      <properties>
+        <optionHasProperties Id="572be3f0-740f-4613-85b3-bf6dcc83d43e">
+          <property Id="70f62928-477e-428f-9d7a-195e1c4b55f1" name="GeneralChair" />
+        </optionHasProperties>
+        <optionHasProperties Id="65420ff4-63c2-477e-8a82-fd4c3d25293c">
+          <property Id="8f3eb160-dd14-48de-afc1-259bbcfbf556" name="ProgramChair" />
+        </optionHasProperties>
+        <optionHasProperties Id="eb39282f-12a6-4e80-bbf0-d65b590e9595">
+          <property Id="6bb01354-3c59-449a-aba4-a8fbed10daf7" name="WorkshopChair" />
+        </optionHasProperties>
+        <optionHasProperties Id="754d3850-d11d-4626-b390-036d67e72ab0">
+          <property Id="5064c33d-0a55-480f-8068-fd7b5b17555b" name="TutorialChair" />
+        </optionHasProperties>
+        <optionHasProperties Id="ac6cdf0b-62a2-4faf-9a22-a3ef54537353">
+          <property Id="397a522e-1de5-47bd-bc33-a5864d59883d" name="ProceedingsChair" />
+        </optionHasProperties>
+        <optionHasProperties Id="a13f7d1d-12fd-4b83-aa73-13dbbb86c0a9">
+          <property Id="653e47ca-db9b-4968-9d30-6983d6af365f" name="PanelChair" />
+        </optionHasProperties>
+      </properties>
+      <types>
+        <optionHasTypes Id="11bc9f48-3c1f-42e4-a518-0c4f1df92afe">
+          <type Id="5b9f2a2a-5b0a-4173-8459-b1398860e1ba" name="Insert" />
+        </optionHasTypes>
+        <optionHasTypes Id="83a0c68d-4351-4c00-97c5-36d3f482244f">
+          <type Id="c66adae2-b8d0-42d9-b4fb-b09d04898fd9" name="Update" />
+        </optionHasTypes>
+        <optionHasTypes Id="3cf084a0-24a0-41a9-973a-3f046e5e29ec">
+          <type Id="0daa8baa-e8f6-47fd-b313-fe28ce2e883f" name="Search" />
+        </optionHasTypes>
+        <optionHasTypes Id="87a8bbc8-ae89-4dd4-a6f5-ccfc74748415">
+          <type Id="2a9a1267-58dd-4aaa-a652-e32b831bc586" name="Remove" />
+        </optionHasTypes>
+        <optionHasTypes Id="b6090bdc-3cd4-4bd9-b697-f12511eb2aca">
+          <type Id="6515d017-5ffd-426e-bc43-d3474e3923b4" name="ListAll" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="12b3e3f5-7002-4f30-9fbe-fe670660d26d" optionType="Speaker">
+      <types>
+        <optionHasTypes Id="2a45adf0-58f2-4bae-8f37-e9b982aaadf6">
+          <type Id="0dc5d9c6-eb6d-4acc-9cbf-e0cae7ac2c40" name="Insert" />
+        </optionHasTypes>
+        <optionHasTypes Id="6a296d26-da05-46a3-b02e-ccf3e41058a8">
+          <type Id="bcdc4b1e-289f-49c9-8c3f-82fb975fbcf3" name="Update" />
+        </optionHasTypes>
+        <optionHasTypes Id="7122a2b5-f40f-4db1-9a98-8d49022ec6a7">
+          <type Id="bed6c03e-e051-48bd-a3d8-a55c5547d350" name="Search" />
+        </optionHasTypes>
+        <optionHasTypes Id="00d8dc25-f783-44a4-b30d-e60b36e3325c">
+          <type Id="b2c4a676-17d2-4c17-b287-41c64306491a" name="Remove" />
+        </optionHasTypes>
+        <optionHasTypes Id="f64ec218-728e-4aa6-8a78-410540f50400">
+          <type Id="617b10cf-148d-45bf-8a02-26854676280e" name="ListAll" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="d8141dad-5194-462e-b3be-a64f500c3f23" optionType="Reviewer">
+      <functions>
+        <optionHasFunctions Id="561f3ad8-d4c6-4631-b196-a015079a32f3">
+          <function Id="61b99228-b7ad-4fe3-8f2d-0f09c7997dac" name="reviewerRoundofReview" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="ba9e8c5c-065e-44f4-8263-b94b0e7e08f4">
+          <function Id="998b2490-1fe9-478e-ae51-5ec87d96c21b" name="askCardInfo" hasView="false" />
+        </optionHasFunctions>
+      </functions>
+      <types>
+        <optionHasTypes Id="60273300-42db-4317-aa6c-569c5144e260">
+          <type Id="130b89a8-72e6-4526-a781-a8144f24ca60" name="Insert" />
+        </optionHasTypes>
+        <optionHasTypes Id="50c3db3c-3b2d-4792-bedc-16fd70659a24">
+          <type Id="8c970d2b-c1a5-45ef-82ec-2640793a7e93" name="Update" />
+        </optionHasTypes>
+        <optionHasTypes Id="e49ebfcc-06d4-42b5-a6a2-006362febde0">
+          <type Id="8358ad0f-6377-4d09-b558-683eef76f08f" name="Search" />
+        </optionHasTypes>
+        <optionHasTypes Id="a0f23648-2b51-4dbb-93ed-0821a3bbce5c">
+          <type Id="29bc6bb6-2dcd-4120-9eed-04ac9f3a16d1" name="Remove" />
+        </optionHasTypes>
+        <optionHasTypes Id="41960199-db74-4fc2-8b15-d77bb274cd1e">
+          <type Id="6ce853a9-5398-4701-b605-9e89ecbff28a" name="ListAll" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="5947864c-c6ec-43f6-aff5-032af33465c4" optionType="Author" />
+    <option Id="11110206-6caa-478d-a47e-9b2fd4b2c6ab" optionType="Receipt">
+      <types>
+        <optionHasTypes Id="1c8139b9-701f-4eba-9e23-95a8a942ce23">
+          <type Id="fbbb455c-fea2-4a53-a48b-51ffe47ab389" name="Management" />
+        </optionHasTypes>
+      </types>
+    </option>
+    <option Id="a0be324b-b2ff-42bb-8ab9-f440c6c6ee1f" optionType="Assignment">
+      <functions>
+        <optionHasFunctions Id="a469c3c5-be6d-40cc-941f-406a65b66dff">
+          <function Id="3f74bdfb-75dd-4bb0-8a95-b89e165903d6" name="notificationsDeadline" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="016b64a1-350f-4110-adbc-95b31b5b934e">
+          <function Id="09585c83-a54f-408e-bb25-d58c8934bd5b" name="assignmentInterestConflict" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="65c5bda6-a40d-44cd-b66e-9dfcff34deb3">
+          <function Id="c0cdb98f-a36e-4c95-b6bf-0520a18409f1" name="notificationsAceptanceRejection" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="bb44caaa-59af-43be-83ef-3b855fe0761a">
+          <function Id="9bf73932-73e7-49b2-9e67-b67ac3e968d0" name="notificationPaperAssignment" hasView="false" />
+        </optionHasFunctions>
+      </functions>
+      <types>
+        <optionHasTypes Id="694a2f71-7409-49d4-9426-15a1d0e41691">
+          <type Id="61569405-b2e3-476f-bf33-8a64ac6db46c" name="All" />
+        </optionHasTypes>
+      </types>
+    </option>
   </elements>
 </evModel>
