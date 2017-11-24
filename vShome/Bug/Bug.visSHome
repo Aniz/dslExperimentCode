@@ -131,7 +131,13 @@
       </feature>
     </modelRootHasFeatures>
     <modelRootHasFeatures Id="68c7e30b-e035-46ca-b220-5564d636646c">
-      <feature Id="a1cad33d-3b7e-45da-8d20-0d1242c8b36b" featureType="OR" featureName="UserAirConditionerControl" />
+      <feature Id="a1cad33d-3b7e-45da-8d20-0d1242c8b36b" featureType="Optional" serial="5575292698449566428L" featureName="UserAirConditionerControl">
+        <actuator>
+          <featureReferencesActuator Id="66ec8739-d910-45dd-9cc1-7afb8373c76e">
+            <deviceMoniker Id="c57a8b3e-eda1-4c2d-9b00-d4bcfff56925" />
+          </featureReferencesActuator>
+        </actuator>
+      </feature>
     </modelRootHasFeatures>
   </features>
   <devices>
@@ -145,7 +151,7 @@
       <device Id="67a6f7ca-ad5c-4e77-8689-bacc749dc0c1" name="PresenceSensor" returnType="BOOL" deviceType="Sensor" />
     </modelRootHasDevices>
     <modelRootHasDevices Id="c31bb1fe-ac32-4383-b301-329cf5a02153">
-      <device Id="3991b3a9-298f-4d9c-8404-7167c160b717" name="Alarn" returnType="INFO" deviceType="Actuator" />
+      <device Id="3991b3a9-298f-4d9c-8404-7167c160b717" name="Alarm" returnType="INFO" deviceType="Actuator" />
     </modelRootHasDevices>
     <modelRootHasDevices Id="3540d64c-680d-432d-be62-6c806b1604be">
       <device Id="263e99c7-7641-473c-94db-fed36e3cb3f6" name="TemperatureSensor" returnType="RANGE" deviceType="Actuator" />
