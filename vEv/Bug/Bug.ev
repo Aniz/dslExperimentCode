@@ -3,7 +3,7 @@ Create
 	
 add Payment
 		
-	types  Avista,Debito,Credito.
+	types AVista,Credito,Debito.
 		
 	show Insert,Update,Search,Remove,ListAll.
 		 if Payment.PayPal->generateBoleto	 if Payment.Credito->askCardInfo	 if Payment.Debito->generateCarne	
@@ -15,7 +15,7 @@ add Event
 		 def Event->eventProgram	 def Event->reportsFrequencyPerEvent	 def Event->eventImportantDates	
 add Activity
 		
-	types MiniCurso ,Tutorial,Painel,Workshop,MainTrack .
+	types MiniCurso,Tutorial,Painel,Workshop,MainTrack.
 		
 	show Insert,Update,Search,Remove,ListAll.
 		 def Activity->reportsFrequencyPerActivity	 def Activity->reportsListOfAuthors	
@@ -49,12 +49,6 @@ add Organizer
 		
 	show Insert,Update,Search,Remove,ListAll.
 		
-add Speaker
-		
-	
-		
-	show Insert,Update,Search,Remove,ListAll.
-		
 add Reviewer
 		
 	
@@ -78,4 +72,10 @@ add Assignment
 	
 		
 	show Insert,Update,Search,Remove,ListAll.
-		 if Assignment->notificationsDeadline	 if Assignment->assignmentInterestConflict	 if Assignment->notificationsAceptanceRejection	 if Assignment->notificationPaperAssignment
+		 if Assignment->notificationsDeadline	 if Assignment->assignmentInterestConflict	 if Assignment->notificationsAceptanceRejection	 if Assignment->notificationPaperAssignment	
+add Speaker
+		
+	
+		
+	show Insert,Update,Search,Remove,ListAll.
+	

@@ -95,14 +95,14 @@
         <deviceShapeMoniker Id="b8ffac94-dff7-42b0-827f-82d6268cdbcf" />
       </nodes>
     </actuatorConnector>
-    <actuatorConnector Id="86aed950-6e42-46a6-9b72-9b678a8631ee" edgePoints="[(5.75 : 4.890625); (5.054689375 : 4.890625); (5.054689375 : 5.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <actuatorConnector Id="86aed950-6e42-46a6-9b72-9b678a8631ee" edgePoints="[(5.75 : 4.890625); (5.054689375 : 4.890625); (5.054689375 : 5.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesActuatorMoniker Id="ffafcf51-a70e-46f6-9df7-5d8daa85ee8c" />
       <nodes>
         <featureShapeMoniker Id="adb7bbea-a235-4e79-bd7f-c8da96b9cfbc" />
         <deviceShapeMoniker Id="b8ffac94-dff7-42b0-827f-82d6268cdbcf" />
       </nodes>
     </actuatorConnector>
-    <actuatorConnector Id="8f56cea1-747a-4484-8a85-1308ad238bae" edgePoints="[(5.75 : 5.6875); (5.5 : 5.6875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <actuatorConnector Id="8f56cea1-747a-4484-8a85-1308ad238bae" edgePoints="[(5.75 : 5.6875); (5.5 : 5.6875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesActuatorMoniker Id="32c3c70f-e920-483b-9355-78d0137550b5" />
       <nodes>
         <featureShapeMoniker Id="1e6de2d1-f373-4d99-99eb-99cf4501e014" />
@@ -158,21 +158,21 @@
         <deviceShapeMoniker Id="cfad6e8c-ee91-4ae7-8f27-886182628863" />
       </nodes>
     </sensorC>
-    <brotherC Id="9e8b0e88-4eb8-4096-b27b-616839c63cd9" edgePoints="[(3.75 : 6.09375); (5.75 : 6.09375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <brotherC Id="9e8b0e88-4eb8-4096-b27b-616839c63cd9" edgePoints="[(3.75 : 6.09375); (5.75 : 6.09375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesBrotherMoniker Id="78aa3ed1-91c6-4947-b7e9-6e5c94fba84f" />
       <nodes>
         <featureShapeMoniker Id="8e7e4205-9823-44f7-b295-e7e2b0e0189f" />
         <featureShapeMoniker Id="1e6de2d1-f373-4d99-99eb-99cf4501e014" />
       </nodes>
     </brotherC>
-    <fatherC Id="a9a04653-e4e4-4454-8f52-fb98daef806b" edgePoints="[(6.5 : 5.5); (6.5 : 5.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <fatherC Id="a9a04653-e4e4-4454-8f52-fb98daef806b" edgePoints="[(6.5 : 5.5); (6.5 : 5.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesFatherMoniker Id="a22f194e-ea35-4231-8cc3-e0ec45007a67" />
       <nodes>
         <featureShapeMoniker Id="1e6de2d1-f373-4d99-99eb-99cf4501e014" />
         <featureShapeMoniker Id="adb7bbea-a235-4e79-bd7f-c8da96b9cfbc" />
       </nodes>
     </fatherC>
-    <sensorC Id="e5d36d2b-da58-4d8c-951d-38dd23d667ed" edgePoints="[(6.625 : 6.25); (6.625 : 6.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <sensorC Id="e5d36d2b-da58-4d8c-951d-38dd23d667ed" edgePoints="[(6.625 : 6.25); (6.625 : 6.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesSensorMoniker Id="6fd68845-a49d-454c-8dda-9bbd9c712da1" />
       <nodes>
         <featureShapeMoniker Id="1e6de2d1-f373-4d99-99eb-99cf4501e014" />
@@ -182,7 +182,7 @@
     <featureShape Id="833bf7a7-3553-41f2-89f6-fa1d7f9d282e" absoluteBounds="4.5, 1.375, 1.875, 0.75">
       <featureMoniker Id="a1cad33d-3b7e-45da-8d20-0d1242c8b36b" />
     </featureShape>
-    <actuatorConnector Id="14fd930d-de41-4956-974d-a73d31ec105e" edgePoints="[(5.4375 : 1.375); (5.4375 : 0.610714285714286); (2 : 0.610714285714286)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Caller">
+    <actuatorConnector Id="14fd930d-de41-4956-974d-a73d31ec105e" edgePoints="[(5.4375 : 1.375); (5.4375 : 0.610714285714286); (2 : 0.610714285714286)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
       <featureReferencesActuatorMoniker Id="66ec8739-d910-45dd-9cc1-7afb8373c76e" />
       <nodes>
         <featureShapeMoniker Id="833bf7a7-3553-41f2-89f6-fa1d7f9d282e" />

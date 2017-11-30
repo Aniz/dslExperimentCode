@@ -6,7 +6,7 @@
       <optionMoniker Id="b0a07b0d-e890-404b-9e1e-e708f68694b7" />
       <nestedChildShapes>
         <elementListCompartment Id="7b8fe698-5ed7-4469-8405-6437fe901a7f" absoluteBounds="0.51500000000000012, 5.51, 1.4700000000000002, 0.8262939453125" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="eb29efce-0cd1-4f4d-9f65-1a56c7541389" absoluteBounds="0.515, 6.3462939453125, 1.4700000000000002, 0.44169108072916663" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="eb29efce-0cd1-4f4d-9f65-1a56c7541389" absoluteBounds="0.515, 6.3462939453125, 1.4700000000000002, 0.44169108072916652" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <functionShape Id="3461263f-f0b7-40be-b223-33b771c646c6" absoluteBounds="2.625, 6, 1.25, 0.375">
@@ -31,7 +31,7 @@
       <optionMoniker Id="26318b58-6f03-4a4b-b83f-df3b5373c93e" />
       <nestedChildShapes>
         <elementListCompartment Id="235852fb-c4bd-412a-9ca3-9fe23ed11508" absoluteBounds="6.64, 6.385, 1.4700000000000002, 1.2108968098958333" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="dcbbe422-fdcc-4727-a4df-98fc56a7c035" absoluteBounds="6.64, 7.6058968098958335, 1.4700000000000002, 0.44169108072916663" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="dcbbe422-fdcc-4727-a4df-98fc56a7c035" absoluteBounds="6.64, 7.6058968098958335, 1.4700000000000002, 0.44169108072916652" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <functionShape Id="317e0986-cd1a-4bf6-a251-3cb0084000bd" absoluteBounds="5, 6, 1.5, 0.5">
@@ -52,11 +52,11 @@
         <elementListCompartment Id="d4a15876-c10c-4390-b0d8-054756dc557b" absoluteBounds="8.515, 5.2789925130208335, 1.4700000000000002, 0.8262939453125" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
-    <optionShape Id="fada1100-618b-466d-b4b1-139daae5f3d9" absoluteBounds="10.25, 0.5, 1.5, 2.19568359375">
+    <optionShape Id="fada1100-618b-466d-b4b1-139daae5f3d9" absoluteBounds="10.375, 0.5, 1.5, 2.1956835937500006">
       <optionMoniker Id="657d4f3e-1581-42bf-bdf8-bf4c279d8dcc" />
       <nestedChildShapes>
-        <elementListCompartment Id="22affc7a-0265-480e-a7fc-43854fdd8a91" absoluteBounds="10.265, 1.5099999999999998, 1.4700000000000002, 0.63399251302083326" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="147a226f-bae0-4021-b8ca-6ae30eafef0c" absoluteBounds="10.265, 2.1539925130208335, 1.4700000000000002, 0.44169108072916674" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="22affc7a-0265-480e-a7fc-43854fdd8a91" absoluteBounds="10.39, 1.5099999999999998, 1.4700000000000002, 0.63399251302083326" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="147a226f-bae0-4021-b8ca-6ae30eafef0c" absoluteBounds="10.39, 2.1539925130208335, 1.4700000000000002, 0.44169108072916663" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <functionShape Id="dc46ab2b-e402-4a43-bc9a-2a6b908ccdd4" absoluteBounds="2.625, 4.625, 1.25, 0.375">
@@ -84,7 +84,7 @@
     <functionShape Id="fd883de1-18a6-45b3-bc25-a054877f7ff9" absoluteBounds="8.625, 6.5, 1.75, 0.5">
       <functionMoniker Id="1a5f06a3-55dd-472b-939f-db4eb1438a3c" />
     </functionShape>
-    <optionConnector Id="aacfb9a7-06d2-40c6-8b72-6e920957b8fc" edgePoints="[(9.3125 : 6.20528645833333); (9.3125 : 6.50580724408612)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="aacfb9a7-06d2-40c6-8b72-6e920957b8fc" edgePoints="[(9.265625 : 6.20528645833333); (9.265625 : 6.50913533999614)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="0f2fa484-4624-480b-9685-e0dcefdd421c" />
       <relativeChildShapes />
       <nodes>
@@ -117,7 +117,7 @@
     <functionShape Id="701c6b18-8084-4b4c-b452-e9810bab9c60" absoluteBounds="7.375, 2.375, 1.5, 0.5">
       <functionMoniker Id="5a828baf-b25f-447f-ad33-fc53a2f6c940" />
     </functionShape>
-    <optionConnector Id="50e87087-37ca-4d84-b83a-90d0bd8ca583" edgePoints="[(10.25 : 2.535341796875); (8.82510903401653 : 2.535341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="50e87087-37ca-4d84-b83a-90d0bd8ca583" edgePoints="[(10.375 : 2.535341796875); (8.82510903401653 : 2.535341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="82474b31-d029-401e-a3c8-634106e0fa4b" />
       <relativeChildShapes />
       <nodes>
@@ -128,7 +128,7 @@
     <functionShape Id="8eccf591-0dfc-4d5c-aad2-fffd16049daf" absoluteBounds="7.625, 3, 1.5, 0.5">
       <functionMoniker Id="966f33be-365b-4a63-bf17-eddcead08ae0" />
     </functionShape>
-    <optionConnector Id="c939c92b-3d73-4b79-82c5-c388a0183497" edgePoints="[(11 : 2.69568359375); (11 : 3.25); (9.125 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="c939c92b-3d73-4b79-82c5-c388a0183497" edgePoints="[(11.125 : 2.69568359375); (11.125 : 3.25); (9.125 : 3.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="f7ec301b-b415-4bab-b04c-7f7a4d2946a2" />
       <relativeChildShapes />
       <nodes>
@@ -143,35 +143,28 @@
         <elementListCompartment Id="51788f8a-b188-424b-963f-1776c4d7d7de" absoluteBounds="6.0150000000000006, 4.5193896484375, 1.4700000000000002, 0.44169108072916663" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
-    <optionShape Id="6ec89dc6-edc1-460f-92d9-d8aef50df902" absoluteBounds="0.5, 0.5, 1.5, 3.1571907552083331">
+    <optionShape Id="6ec89dc6-edc1-460f-92d9-d8aef50df902" absoluteBounds="0.5, 0.5, 1.5, 3.1571907552083336">
       <optionMoniker Id="0122993d-563e-4933-9f03-e51070a422fa" />
       <nestedChildShapes>
         <elementListCompartment Id="4a562097-c433-486e-94f5-eb33b3876606" absoluteBounds="0.51500000000000012, 1.5099999999999998, 1.4700000000000002, 0.8262939453125" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="f914b4b3-5cbe-42b2-ae40-de9456a3e6ed" absoluteBounds="0.51500000000000012, 2.3462939453124996, 1.4700000000000002, 1.2108968098958335" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="f914b4b3-5cbe-42b2-ae40-de9456a3e6ed" absoluteBounds="0.515, 2.3462939453125, 1.4700000000000002, 1.2108968098958333" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <functionShape Id="359cedbe-444a-4041-ba8c-68111b0af106" absoluteBounds="0.5, 3.875, 1.5, 0.5">
       <functionMoniker Id="9920df3c-e58d-4dd9-a6fa-d593e2213ec6" />
     </functionShape>
-    <optionShape Id="0ac06498-cbe4-4caa-a387-332b8d4bd2ee" absoluteBounds="2.125, 0.5, 1.5, 3.7340950520833323">
+    <optionShape Id="0ac06498-cbe4-4caa-a387-332b8d4bd2ee" absoluteBounds="2.125, 0.5, 1.5, 3.7340950520833331">
       <optionMoniker Id="4fdacd59-48eb-4647-a8a0-79a2827b8c42" />
       <nestedChildShapes>
-        <elementListCompartment Id="bb3c5631-1218-4e2c-a890-e8696a53427d" absoluteBounds="2.1400000000000006, 1.51, 1.4700000000000002, 1.4031982421874998" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="4fc1f0d1-f643-4e1f-ab48-51bababe7f26" absoluteBounds="2.1400000000000006, 2.9231982421874996, 1.4700000000000002, 1.210896809895833" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="bb3c5631-1218-4e2c-a890-e8696a53427d" absoluteBounds="2.1400000000000006, 1.51, 1.4700000000000002, 1.4031982421875" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4fc1f0d1-f643-4e1f-ab48-51bababe7f26" absoluteBounds="2.14, 2.9231982421874996, 1.4700000000000002, 1.2108968098958335" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
-    <optionShape Id="e0badd01-277b-4326-9660-c4389580a984" absoluteBounds="5.375, 0.5, 1.5, 2.5802864583333331">
-      <optionMoniker Id="12b3e3f5-7002-4f30-9fbe-fe670660d26d" />
-      <nestedChildShapes>
-        <elementListCompartment Id="36a43baa-5230-42c6-a166-9acd9ea76220" absoluteBounds="5.3900000000000006, 1.5099999999999998, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="73d0107c-94ea-459d-90a5-78849e4c9920" absoluteBounds="5.3900000000000006, 1.7693896484375, 1.4700000000000002, 1.2108968098958335" name="Actions" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </optionShape>
-    <optionShape Id="e2291bac-b759-48d0-a69b-6051506d0c7b" absoluteBounds="3.75, 0.5, 1.5, 2.5802864583333331">
+    <optionShape Id="e2291bac-b759-48d0-a69b-6051506d0c7b" absoluteBounds="3.75, 0.5, 1.5, 2.5802864583333336">
       <optionMoniker Id="d8141dad-5194-462e-b3be-a64f500c3f23" />
       <nestedChildShapes>
         <elementListCompartment Id="08ec5b72-2142-4f0c-9d3d-3071a2093e28" absoluteBounds="3.7650000000000006, 1.5099999999999998, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="d0ce6dc3-d279-48ae-9e97-fbb04a8575e9" absoluteBounds="3.7650000000000006, 1.7693896484375, 1.4700000000000002, 1.2108968098958335" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="d0ce6dc3-d279-48ae-9e97-fbb04a8575e9" absoluteBounds="3.7650000000000006, 1.7693896484375, 1.4700000000000002, 1.2108968098958333" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <functionShape Id="e759fa47-a9a5-4466-89db-53f88df2b641" absoluteBounds="4, 3.25, 1.875, 0.25">
@@ -193,18 +186,18 @@
         <functionShapeMoniker Id="e759fa47-a9a5-4466-89db-53f88df2b641" />
       </nodes>
     </optionConnector>
-    <optionShape Id="34ccf92e-6bf2-4d5c-8b45-daf74b92a217" absoluteBounds="8.625, 0.5, 1.5, 1.618779296875">
+    <optionShape Id="34ccf92e-6bf2-4d5c-8b45-daf74b92a217" absoluteBounds="7, 0.5, 1.5, 1.618779296875">
       <optionMoniker Id="5947864c-c6ec-43f6-aff5-032af33465c4" />
       <nestedChildShapes>
-        <elementListCompartment Id="4cc2926d-9e98-4518-941c-4a106dfc50ca" absoluteBounds="8.64, 1.5099999999999998, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="0617d074-fa4d-40be-8804-dc936f51b614" absoluteBounds="8.64, 1.7693896484375, 1.4700000000000002, 0.2493896484375" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="4cc2926d-9e98-4518-941c-4a106dfc50ca" isExpanded="false" absoluteBounds="7.0150000000000006, 1.51, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0617d074-fa4d-40be-8804-dc936f51b614" isExpanded="false" absoluteBounds="7.0150000000000006, 1.7693896484375, 1.4700000000000002, 0.2493896484375" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
-    <optionShape Id="ec6c1980-8c4a-431b-bc67-b7a338737af2" absoluteBounds="7, 0.5, 1.5, 1.8110807291666666">
+    <optionShape Id="ec6c1980-8c4a-431b-bc67-b7a338737af2" absoluteBounds="8.625, 0.5, 1.5, 1.8110807291666666">
       <optionMoniker Id="11110206-6caa-478d-a47e-9b2fd4b2c6ab" />
       <nestedChildShapes>
-        <elementListCompartment Id="beb99533-32d6-4686-8b8c-770934e96370" absoluteBounds="7.0150000000000006, 1.5099999999999998, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="3fe74532-ab65-4d09-a4ef-85687d29e17f" absoluteBounds="7.0150000000000006, 1.7693896484374996, 1.4700000000000002, 0.44169108072916663" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="beb99533-32d6-4686-8b8c-770934e96370" isExpanded="false" absoluteBounds="8.64, 1.51, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="3fe74532-ab65-4d09-a4ef-85687d29e17f" absoluteBounds="8.64, 1.7693896484375, 1.4700000000000002, 0.44169108072916652" name="Actions" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </optionShape>
     <optionShape Id="52911693-b706-47bb-bb30-9ab8d904d9ae" absoluteBounds="10.25, 3.625, 1.5, 1.8110807291666653">
@@ -217,7 +210,7 @@
     <functionShape Id="148552cd-1725-4bfc-a2cb-97e02d6c4c09" absoluteBounds="10.5, 5.875, 1.375, 0.5">
       <functionMoniker Id="3f74bdfb-75dd-4bb0-8a95-b89e165903d6" />
     </functionShape>
-    <optionConnector Id="caeb48f0-1ad4-4680-b448-b5fdeafe2bc6" edgePoints="[(11.125 : 5.43608072916667); (11.125 : 5.87603520113402)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="caeb48f0-1ad4-4680-b448-b5fdeafe2bc6" edgePoints="[(11.4375 : 5.43608072916667); (11.4375 : 5.8921147553191)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="a469c3c5-be6d-40cc-941f-406a65b66dff" />
       <relativeChildShapes />
       <nodes>
@@ -228,7 +221,7 @@
     <functionShape Id="b3c1d58f-40c8-4e13-981d-711bb8e01ba8" absoluteBounds="10.5, 6.5, 1.625, 0.5">
       <functionMoniker Id="09585c83-a54f-408e-bb25-d58c8934bd5b" />
     </functionShape>
-    <optionConnector Id="58d95ea4-be4e-49a3-b899-4ce54b5ca7b9" edgePoints="[(11.75 : 4.53054036458333); (12.03125 : 4.53054036458333); (12.03125 : 6.63341965718286)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="58d95ea4-be4e-49a3-b899-4ce54b5ca7b9" edgePoints="[(11.75 : 4.3197815234375); (12.03125 : 4.3197815234375); (12.03125 : 6.63341965718286)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="016b64a1-350f-4110-adbc-95b31b5b934e" />
       <relativeChildShapes />
       <nodes>
@@ -239,7 +232,7 @@
     <functionShape Id="958a9cff-1bf5-4fd4-8df5-5ab38ca5906e" absoluteBounds="10.375, 7.125, 1.875, 0.5">
       <functionMoniker Id="c0cdb98f-a36e-4c95-b6bf-0520a18409f1" />
     </functionShape>
-    <optionConnector Id="a0e2aa31-48c0-4d9f-8a95-2b23bc5f455c" edgePoints="[(11.75 : 5.014563046875); (11.9479166666667 : 5.014563046875 : JumpStart); (12.1145833333333 : 5.014563046875 : JumpEnd); (12.21875 : 5.014563046875); (12.21875 : 7.31099045210109)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="a0e2aa31-48c0-4d9f-8a95-2b23bc5f455c" edgePoints="[(11.75 : 4.90918362630208); (11.9479166666667 : 4.90918362630208 : JumpStart); (12.1145833333333 : 4.90918362630208 : JumpEnd); (12.21875 : 4.90918362630208); (12.21875 : 7.31099045210109)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="65c5bda6-a40d-44cd-b66e-9dfcff34deb3" />
       <relativeChildShapes />
       <nodes>
@@ -272,7 +265,7 @@
     <functionShape Id="06acb329-168c-4d0c-86c1-1824b3f7dbd8" absoluteBounds="10.375, 7.75, 1.75, 0.5">
       <functionMoniker Id="9bf73932-73e7-49b2-9e67-b67ac3e968d0" />
     </functionShape>
-    <optionConnector Id="0cca93eb-012c-48fd-8430-2630a1c0a719" edgePoints="[(10.656248 : 5.43608072916667); (10.656248 : 5.625); (11.0416666666667 : 5.625 : JumpStart); (11.2083333333333 : 5.625 : JumpEnd); (11.9479166666667 : 5.625 : JumpStart); (12.1145833333333 : 5.625 : JumpEnd); (12.1354166666667 : 5.625 : JumpStart); (12.3020833333333 : 5.625 : JumpEnd); (12.5 : 5.625); (12.5 : 8); (12.125 : 8)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="0cca93eb-012c-48fd-8430-2630a1c0a719" edgePoints="[(10.812498 : 5.43608072916667); (10.812498 : 5.625); (11.3541666666667 : 5.625 : JumpStart); (11.5208333333333 : 5.625 : JumpEnd); (11.9479166666667 : 5.625 : JumpStart); (12.1145833333333 : 5.625 : JumpEnd); (12.1354166666667 : 5.625 : JumpStart); (12.3020833333333 : 5.625 : JumpEnd); (12.5 : 5.625); (12.5 : 8); (12.125 : 8)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="bb44caaa-59af-43be-83ef-3b855fe0761a" />
       <relativeChildShapes />
       <nodes>
@@ -283,7 +276,7 @@
     <functionShape Id="16174663-218e-4b74-a6c4-04e41488be02" absoluteBounds="8.625, 7.125, 1.5, 0.5">
       <functionMoniker Id="5f9c65d4-bd4f-42e5-967a-8a781618ad94" />
     </functionShape>
-    <optionConnector Id="31fc4632-83d5-42d2-ad72-2c8e1470d76c" edgePoints="[(8.874998 : 6.20528645833333); (8.874998 : 6.4375); (8.5625 : 6.4375); (8.5625 : 7.375); (8.625 : 7.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="31fc4632-83d5-42d2-ad72-2c8e1470d76c" edgePoints="[(8.8515605 : 6.20528645833333); (8.8515605 : 6.375); (8.5625 : 6.375); (8.5625 : 7.375); (8.625 : 7.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="76220e02-561d-441f-8350-d12200ba0897" />
       <relativeChildShapes />
       <nodes>
@@ -294,7 +287,7 @@
     <functionShape Id="475f9174-76be-4b37-a51f-a49bcd2e0df2" absoluteBounds="8.375, 7.75, 1.75, 0.5">
       <functionMoniker Id="707fb40e-a52e-45df-85bf-27ffdc26f13d" />
     </functionShape>
-    <optionConnector Id="533e4871-064b-409d-bd37-41fced7a7d11" edgePoints="[(9.687502 : 6.20528645833333); (9.687502 : 6.4375); (8.3125 : 6.4375); (8.3125 : 8); (8.375 : 8)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <optionConnector Id="533e4871-064b-409d-bd37-41fced7a7d11" edgePoints="[(9.6640645 : 6.20528645833333); (9.6640645 : 6.4375); (8.3125 : 6.4375); (8.3125 : 8); (8.375 : 8)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="c064237c-65b1-4c8e-8988-b5a4a4b0c272" />
       <relativeChildShapes />
       <nodes>
@@ -313,5 +306,12 @@
         <functionShapeMoniker Id="fad89a8f-7fbf-4cec-b28e-481996b8cadf" />
       </nodes>
     </optionConnector>
+    <optionShape Id="4cb1924b-97ca-4c71-9922-889bb54c20cd" absoluteBounds="5.375, 0.5, 1.5, 2.5802864583333331">
+      <optionMoniker Id="3035dd6c-54c3-48ab-8447-fdb2909b51af" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00c8561c-502b-45dc-bf46-7660cfc497bb" absoluteBounds="5.39, 1.5099999999999998, 1.4700000000000002, 0.2493896484375" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="dd3da7a0-a2ae-4d7c-9286-82712359337e" absoluteBounds="5.39, 1.7693896484374996, 1.4700000000000002, 1.2108968098958335" name="Actions" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </optionShape>
   </nestedChildShapes>
 </evDiagram>

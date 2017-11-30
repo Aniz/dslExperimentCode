@@ -1,360 +1,352 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <evModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f5451489-4626-4a60-97a4-ae16c4fb9268" name="RiseEvents" password="password" email="rise" xmlns="http://schemas.microsoft.com/dsltools/Ev">
   <elements>
-    <option Id="52ca0a22-b6b9-437b-afb9-b54162241af3" optionType="User">
+    <option Id="78552e46-cba8-45f0-ab43-1354b221a65e" optionType="User">
       <functions>
-        <optionHasFunctions Id="15f3975c-7ee5-4a0f-92d1-758b7cc53f4a">
-          <function Id="4f842f86-4e24-463e-98ba-5847a53f6a0e" name="userSendBugTrackEmail" hasView="true" />
+        <optionHasFunctions Id="668ab953-4ea0-42c6-8e37-f7d0a3e511b5">
+          <function Id="dde5e6e6-4360-4c7f-9114-52a624400229" name="userSendBugTrackEmail" hasView="false" />
         </optionHasFunctions>
       </functions>
-      <properties>
-        <optionHasProperties Id="6acf1369-b56b-4136-9214-edf8a3348b79">
-          <property Id="3d06f7bf-a3a0-44a7-b74e-cd33458a105d" name="Estudante" />
-        </optionHasProperties>
-        <optionHasProperties Id="6de25a1e-2865-4ed4-a70b-5940331943fb">
-          <property Id="5ef79dd3-1f3f-483e-91cd-c9a4be97cf6a" name="Profissional" />
-        </optionHasProperties>
-        <optionHasProperties Id="2446b61d-b353-4ff9-8e57-22032c795826">
-          <property Id="587bfc07-b78d-4f51-bd74-0ae1bf5d1ffb" name="Associado" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="103a6bfc-65df-49f2-be6e-7b65e3c4d981">
-          <type Id="b5f0d2fd-9075-4722-add5-3c69d000a561" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="ce3e727f-56ca-498c-8e6c-1bf83d3fbbc7">
-          <type Id="9538f71c-354d-47bf-95c6-c9780e5ae249" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="ed74d49f-b62e-4ef9-b5d6-b70f918956d6">
-          <type Id="a0433aa2-a958-4885-9c79-3a11b00c6dbd" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="41c17c64-0e0f-4344-88c2-f15204b0939e">
-          <type Id="d62d5149-3f84-4bbc-b495-4a15ad82c5dd" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="17b3c384-ec44-4b28-822c-013ca79eb5e4">
-          <type Id="b4814607-1230-41a3-929a-4d98f24e25a7" name="ListAll" />
-        </optionHasTypes>
-      </types>
+      <categories>
+        <optionHasCategories Id="63a7cf32-5166-4beb-a3f3-3020dd31a5d9">
+          <category Id="95bb7f1d-c177-4993-9012-16b47a85d9e7" name="Estudante" />
+        </optionHasCategories>
+        <optionHasCategories Id="922d3567-54a5-4687-a341-18b1ceb3176a">
+          <category Id="c955a372-3ded-406a-bac6-5bfe0024b0bd" name="Professional" />
+        </optionHasCategories>
+        <optionHasCategories Id="6191caa3-94f0-4277-8709-bd91f07ae4d9">
+          <category Id="af987298-7ccb-419d-a0c8-5e02ba52641b" name="Associado" />
+        </optionHasCategories>
+      </categories>
+      <commands>
+        <optionHasCommands Id="6d0cadc2-d70b-4cab-80ab-f017f9399a27">
+          <command Id="25d9390d-1b5e-492b-9709-869c9295f292" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="c0e18cdc-2676-461a-ac47-ecf2f5e0efbf">
+          <command Id="6ee2cb1c-f52f-4fe8-aaa0-c1a17a84bc59" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="5c3a4944-4d02-4547-b186-63e3cff52bcf">
+          <command Id="49c4754f-fd98-4f07-a764-36e544a91536" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="992ef2de-d3ac-4702-9486-85f6f8c61120">
+          <command Id="2b3b754b-11bc-4d00-952e-d77772020986" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="f19b330d-fa46-4979-b406-02b2d015a857">
+          <command Id="d2be0751-8498-4e35-83b2-358d73d0dcf2" name="ListAll" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="fa3891ec-054c-4ae7-b3b8-0183f66836b6" optionType="Organizer">
-      <properties>
-        <optionHasProperties Id="bf9900ba-43c5-4065-b1f7-c79bc4b60e99">
-          <property Id="15c2f99f-c861-4f15-a565-95beec4cc91d" name="GeneralChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="e2e37b29-8924-4c43-823d-de9eedbb6cac">
-          <property Id="b0673ff2-8bce-417a-81d5-e993961e1a11" name="ProgramChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="c75f6ee7-fcb3-4c59-b23d-283aa0f85d36">
-          <property Id="4f2efd20-3594-48c0-ac5a-e6a544dd3b68" name="WorkshopChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="12df8680-4931-4d36-9541-8baf277f7d57">
-          <property Id="84ce8ab9-5caf-4f50-be75-0a60eb507db5" name="TutorialChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="ac0ae3f3-4d1c-47d5-abf3-007f17a6535d">
-          <property Id="970e8694-6483-4c27-bf3c-28d97027e00e" name="ProceedingsChair" />
-        </optionHasProperties>
-        <optionHasProperties Id="bd351ce5-fee1-4c42-b984-b0755c8039d1">
-          <property Id="02b09fdf-91b2-4032-a214-04fe92edd4d8" name="PanelChair" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="55aff58f-7a4f-406d-821a-bb54c6cf50f0">
-          <type Id="232ee320-57df-41c4-9570-c11b3e5ad4eb" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="c0fa712d-3c11-4beb-b9ec-39aa0c394074">
-          <type Id="727fe810-eebd-4367-a6b7-29af91b6fc9a" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="99b37b0a-d743-4766-ba6b-08e8fb8ee1db">
-          <type Id="6261be44-fe4f-4b68-b265-b745f2bbd7fc" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="5687cd2c-321b-4bfa-b55c-55081802bf76">
-          <type Id="8aa49954-72d2-45e0-881e-37047fcda3a6" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="50e3b169-4634-45d5-9143-a4db87762f77">
-          <type Id="36e58f64-23d5-4391-b163-07a345a6b496" name="ListAll" />
-        </optionHasTypes>
-      </types>
+    <option Id="dcba24dc-b3cb-4094-a373-4450e6a0e051" optionType="Organizer">
+      <categories>
+        <optionHasCategories Id="1ca43a70-f65d-4745-9a73-9338e4faec6d">
+          <category Id="851ebebc-85d6-4a30-9326-26b9144a9d74" name="GeneralChair" />
+        </optionHasCategories>
+        <optionHasCategories Id="48b99e51-5989-42c8-8790-7a3279192df3">
+          <category Id="15e4c85f-601c-44c7-a4f9-18d83381ec71" name="ProgramChair" />
+        </optionHasCategories>
+        <optionHasCategories Id="04cb492d-aa16-41cf-9a38-79c610387029">
+          <category Id="32f0046c-3fb6-4278-be5d-711e39a142bc" name="WorkshopChair" />
+        </optionHasCategories>
+        <optionHasCategories Id="3d107d1b-57d9-4187-a133-3a677d669a45">
+          <category Id="e58f1e52-7c81-424d-a2ac-3b27739bc601" name="TutorialChair" />
+        </optionHasCategories>
+        <optionHasCategories Id="93a6e284-63d4-4f91-aa8f-ca7340c7d0f7">
+          <category Id="79263b33-cfa4-47a8-bf4b-0c1e505c6289" name="ProceedingsChair" />
+        </optionHasCategories>
+        <optionHasCategories Id="b501228e-d553-47a4-a4eb-2c09d74e8ebb">
+          <category Id="fb80d907-b705-439c-a4fd-e681c595cbeb" name="PanelChair" />
+        </optionHasCategories>
+      </categories>
+      <commands>
+        <optionHasCommands Id="d1c326bc-087e-49d1-bfea-9b557eae2018">
+          <command Id="11beffec-5f10-4f26-8220-6161ebf8c927" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="afaeb56c-9fb8-439a-9acf-25db648774c5">
+          <command Id="f6956081-26d6-4952-8adf-58cfe83d9732" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="60f65929-ad9d-4135-8a32-ef38e1c782ed">
+          <command Id="ea1f2814-25f4-446c-8367-17b49bf683f2" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="7ae8af73-a0ea-4e3c-97ef-93ba03248406">
+          <command Id="f65dfb1a-3ac5-4e9c-ba0b-e53d5edab514" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="7c22d76d-6439-4e64-9475-34e2a1ac4267">
+          <command Id="75a6307c-b5b4-42bf-9d17-963f4bc3f331" name="ListAll" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="ce82da1b-d5ea-45ae-9c84-d0836dee6ff6" optionType="Event">
+    <option Id="b58c80ef-860e-4cb3-955a-016280fb17ec" optionType="Event">
       <functions>
-        <optionHasFunctions Id="48e9026a-38bf-4bea-81dd-8178072ca07b">
-          <function Id="50a81350-c952-4334-b7cf-5d683b323bb7" name="eventImportantDates" hasView="true" />
+        <optionHasFunctions Id="fc388c7b-13a6-490c-b08e-d0370adaf0a3">
+          <function Id="4270afc3-2359-4b49-bec7-8d87c5057625" name="eventImportantDates" hasView="true" />
         </optionHasFunctions>
-        <optionHasFunctions Id="0123272c-0e48-4869-aaa4-a88540da5246">
-          <function Id="306926a5-119c-428c-b83f-7ac2fef76d5b" name="reportsFrequencyPerEvent" hasView="true" />
+        <optionHasFunctions Id="462abb75-6920-437d-9791-dfa84d21aee8">
+          <function Id="b28e4a8d-a4b8-4a3d-a06d-13321c351a95" name="reportsFrequencyPerEvent" hasView="true" />
         </optionHasFunctions>
-        <optionHasFunctions Id="3d2d1a1e-2c8a-42af-aec0-8a75d2f58331">
-          <function Id="129a25c6-9a53-46e6-b606-37985369d036" name="eventProgram" hasView="true" />
+        <optionHasFunctions Id="e3dda7e2-aae5-463c-90ba-1ddc2c8eff7c">
+          <function Id="6f1161bf-edfc-4856-93da-e5a2e673e102" name="eventProgram" hasView="true" />
         </optionHasFunctions>
       </functions>
-      <types>
-        <optionHasTypes Id="12c75021-8561-4b47-bbce-e8acf88aeb09">
-          <type Id="7096a356-4248-4b60-b8bd-f53d00c38a90" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="aef65fc9-da6a-46fb-a5ad-c15131cc9cf4">
-          <type Id="f24be886-8d49-44c0-a753-7dc7e954b991" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="b98db0f9-7f96-4c21-8aa4-b6b4c318eb63">
-          <type Id="65850a4e-45f2-42dc-960b-7bd247859082" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="cd0fea9b-4e64-4b9e-aa2b-879856b1f7f8">
-          <type Id="24614fd5-6cb3-434f-9efb-968d2f9a6616" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="28f58e1c-cfe1-47af-aaff-611564e418e6">
-          <type Id="4f8c67ab-c8fc-4851-ab6e-c80c642cb6a8" name="ListAll" />
-        </optionHasTypes>
-        <optionHasTypes Id="189d2a44-265d-45a4-bb4d-4acc5072c465">
-          <type Id="8bfca945-348b-4cfd-b5d8-79b8c009b6c6" name="Management" />
-        </optionHasTypes>
-      </types>
+      <commands>
+        <optionHasCommands Id="b407f399-4ae6-4540-937a-5b07541b23db">
+          <command Id="c2d779b6-7f3d-4ee8-87ba-622752f80616" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="bbbc419e-35a5-4447-9c3c-5eeb40862ce3">
+          <command Id="b453cc5e-de96-4c10-ab35-8a9e60a550c4" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="d4bad12b-bf2e-40a5-a694-4036837995fd">
+          <command Id="4676dd3c-0fd3-47d6-bad0-3e4078cb479a" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="b716595d-5fcc-40b8-9f68-8b3f62ec0b65">
+          <command Id="739707d7-7b0a-4bb3-bb99-87d98b5f5cdc" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="c405325f-554c-4fd3-a44d-3f9eb610d36a">
+          <command Id="4fe95935-066f-414e-92fd-e12f8cf5845f" name="ListAll" />
+        </optionHasCommands>
+        <optionHasCommands Id="1b893e71-3f4e-411f-82e0-3663044fc7ad">
+          <command Id="7051e9a7-94d3-465a-940f-0d0ef781703f" name="Management" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="d779a2f5-c753-41c1-a9d5-10749cff85e9" optionType="Activity">
+    <option Id="288020ba-8142-4d08-bbbd-6a175a001ade" optionType="Activity">
       <functions>
-        <optionHasFunctions Id="20d304c5-4f90-4e47-b71e-c25f12afb0d6">
-          <function Id="dff09794-42ee-463d-a172-87ce0457750c" name="reportsFrequencyPerActivity" hasView="true" />
+        <optionHasFunctions Id="b893a7c2-7ee8-44f8-b007-4cb00834a0c5">
+          <function Id="80e1a2e3-f10c-457a-a3b2-6055cffc7d79" name="reportsFrequencyPerActivity" hasView="true" />
         </optionHasFunctions>
-        <optionHasFunctions Id="62338857-f738-4732-90c7-8db99d44bc68">
-          <function Id="f47cabda-f567-4f6f-b68d-34fc16c534fc" name="reportsListOfAuthors" hasView="true" />
+        <optionHasFunctions Id="0167fddf-c7d4-421f-8891-aaddf3a36f49">
+          <function Id="aacd68ad-ae8b-4cec-8caa-e8ab936eab96" name="reportsListOfAuthors" hasView="true" />
         </optionHasFunctions>
       </functions>
-      <properties>
-        <optionHasProperties Id="62035917-f3ac-4304-af06-3ca8913b6e05">
-          <property Id="3d2f7dfc-ceeb-4e4b-9809-761e50847553" name="MiniCurso" />
-        </optionHasProperties>
-        <optionHasProperties Id="74120e50-39a8-4802-b008-60f4ec4887f0">
-          <property Id="7a3bfe39-bfdc-4c30-82e3-ebb02b2a64f7" name="Tutorial" />
-        </optionHasProperties>
-        <optionHasProperties Id="eb3c9af5-a4f5-4f46-a11f-b72c5432efb1">
-          <property Id="7b9348b9-e5b7-4d12-a6e0-c0a825bca6b0" name="Painel" />
-        </optionHasProperties>
-        <optionHasProperties Id="00cc75ea-4230-4982-98fa-dd3b9329e343">
-          <property Id="3219e674-e03b-48fd-a9d7-96a691982259" name="Worshop" />
-        </optionHasProperties>
-        <optionHasProperties Id="2578b9f6-5f93-4425-9982-3c71ded9682d">
-          <property Id="51a15788-0dd0-4518-9816-7bf973fe390d" name="MainTrack" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="7080a253-34c8-4fe7-bc91-f2bf539cca81">
-          <type Id="456d3352-743b-4aff-be5b-5e2d18012619" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="faacdef7-608b-42ac-aa3e-382aa8c584e8">
-          <type Id="40b0b947-840f-40af-ac54-ba3358272306" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="991de4f0-e910-4181-a7cc-5a04a1e877fa">
-          <type Id="1507eea1-343d-4783-b59f-c0e58aa1107a" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="b26285fe-d4df-4569-88b0-1219cca53929">
-          <type Id="d160c309-3d1c-433f-9edd-cfba54856123" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="6e4a08e7-deaf-4048-9ee6-a031a161b1bc">
-          <type Id="521f7adc-13aa-4367-bb55-86005fed591c" name="ListAll" />
-        </optionHasTypes>
-        <optionHasTypes Id="9f0f24e2-4845-4aa8-a65b-2d09f9968dd1">
-          <type Id="328de577-6323-4053-9ae8-e7373758d963" name="Management" />
-        </optionHasTypes>
-      </types>
+      <categories>
+        <optionHasCategories Id="a9cb4b9f-20f5-47b0-8891-d95e1e694f57">
+          <category Id="929a3ec5-13c2-4e4b-909b-c711763b3845" name="MiniCurso" />
+        </optionHasCategories>
+        <optionHasCategories Id="2333254b-ce24-44cb-861a-a2d0e7fb2245">
+          <category Id="fa02ea2c-eb41-41c2-8580-7bcda525feb6" name="Tutorial" />
+        </optionHasCategories>
+        <optionHasCategories Id="6756a74a-f773-4c96-835c-62aed133651e">
+          <category Id="2775f4f0-42e8-4502-8672-21f34729615d" name="Painel" />
+        </optionHasCategories>
+        <optionHasCategories Id="705eb1cc-f8a4-424e-8357-321563d8fea9">
+          <category Id="2bcc0e14-34a8-4148-a6d3-271f49ce1787" name="Workshop" />
+        </optionHasCategories>
+        <optionHasCategories Id="5814795c-c9ff-4653-bf02-ea54dfbc552e">
+          <category Id="d646d4db-be44-4272-afc7-c3e8d3702e21" name="MainTrack" />
+        </optionHasCategories>
+      </categories>
+      <commands>
+        <optionHasCommands Id="885cc179-62f5-48e7-8ed6-393e58fa8ed5">
+          <command Id="fde9518b-c6f8-43cd-a138-11a4c708483b" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="6378513b-1f87-45f4-85d8-635b569850eb">
+          <command Id="ca7d62cd-944d-4482-9d5c-f434665a3f7e" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="e486dad8-1e39-4c6a-a622-a770e0dcd207">
+          <command Id="005a553e-ae2f-4164-88ad-62bc6ced2288" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="7ed7f867-3739-447e-866b-11ec477a5cc6">
+          <command Id="0d20795d-44a8-48d9-aac2-496105529a51" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="a5c07425-d647-4f72-b4b9-7e3e93526f40">
+          <command Id="dc9b1ecb-cbdd-4d0a-b656-da0b9892ef16" name="ListAll" />
+        </optionHasCommands>
+        <optionHasCommands Id="47966f72-c99f-47ea-8a1f-be9234900ee2">
+          <command Id="6b9256de-d8d3-4d38-bb87-fc45b46efde3" name="Management" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="0495482f-e2a2-4ee6-bea0-c0dca8b9b0c9" optionType="Author" />
-    <option Id="4b123f86-ce8b-4ca9-bb61-12a188198c73" optionType="Speaker">
-      <types>
-        <optionHasTypes Id="720c19de-cad1-402d-bf65-8d3eef3793ea">
-          <type Id="81f661c3-a036-4c1f-b0bf-471b89a625bc" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="65fc55d5-5fe0-4a19-af86-1685f4347302">
-          <type Id="87368ddc-d31b-4c33-b9b9-3689e7447290" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="490c33d1-9c85-4ae1-a0a8-942695152d66">
-          <type Id="30e64bf6-b8be-4dce-97a4-9a2220d0c443" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="6449e8cc-5ab8-410c-85f8-8d3e3f0b2425">
-          <type Id="58e3430b-239a-47c9-baef-8ce3b7c8162c" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="bc27264c-903d-4042-801a-fc48eab98563">
-          <type Id="c8d055ca-82c8-4710-8abc-f1ba90eb8ca7" name="ListAll" />
-        </optionHasTypes>
-      </types>
-    </option>
-    <option Id="7201e742-8aa8-4eea-a307-fdafd4096cf9" optionType="Reviewer">
+    <option Id="dde3672c-f80b-4fe3-8141-dda5a7a160f9" optionType="Payment">
       <functions>
-        <optionHasFunctions Id="9d451041-37ab-470f-a080-59b5a5484357">
-          <function Id="d92576a4-87bd-49e8-9913-32108a53977f" name="reviewerRoundofReview" hasView="false" />
+        <optionHasFunctions Id="77978be0-1cbe-40bf-a52c-352904630f4f" param="Debito">
+          <function Id="e9b6ccb0-c85f-4af8-932b-05d5aa7fbf94" name="generateCarne" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="fdfb576f-2fed-4045-9b0b-c17e4d470455" param="AVista">
+          <function Id="266ccfe0-9ae8-4785-9850-5cab205d48d2" name="generateBoleto" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="166a69cb-2c1d-4c01-92d3-831a3310766c" param="Credito">
+          <function Id="bacc8de4-8c43-457a-9a22-81ab43302ed0" name="askCardInfo" hasView="false" />
         </optionHasFunctions>
       </functions>
-      <types>
-        <optionHasTypes Id="1b0fb6ea-6226-42b1-8693-83a7a1e5c6c8">
-          <type Id="2367d508-e02e-46ca-9b05-d1a7305a05f6" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="131f5372-63ca-4bc0-b60d-58e377219c71">
-          <type Id="a9c1e04c-2c26-44c1-a202-1c4808ce3de6" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="a5f39ab2-bcf9-4aa5-95ba-c6bab2a974b0">
-          <type Id="620edbf4-9fb0-4b1d-ad5c-6da768e599c0" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="17db2bea-ff14-4919-b61a-e6138620dc9c">
-          <type Id="51aef179-68ca-47df-bc2a-2d8a978473dc" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="44f8467e-143d-47c7-a944-8d600d90aed3">
-          <type Id="9632c11c-0625-4999-ba74-5cd81860ef82" name="ListAll" />
-        </optionHasTypes>
-      </types>
+      <categories>
+        <optionHasCategories Id="9d8064c5-03cc-4c76-9465-24f5a2e00b86">
+          <category Id="834d1d5d-6f81-4f22-8771-3d192ef82584" name="Debito" />
+        </optionHasCategories>
+        <optionHasCategories Id="3a015349-2e50-464c-be60-cacb90812774">
+          <category Id="1800882a-b017-4394-8392-de9ac554323a" name="Credito" />
+        </optionHasCategories>
+        <optionHasCategories Id="c5c789cb-e6f3-4383-9435-1c9d46221b61">
+          <category Id="a197b1cd-05a5-4d50-b667-10112e4e2c3d" name="Avista" />
+        </optionHasCategories>
+      </categories>
+      <commands>
+        <optionHasCommands Id="467c7410-df2c-4619-8f12-b6ddd81c9eaf">
+          <command Id="21f55e39-8446-4772-bd58-c912f38af554" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="9ae744ba-a892-4701-a1cb-d0c54327b12b">
+          <command Id="0415371a-f89a-454c-847c-9105bf274ce2" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="c168e84f-0e38-4061-9b1a-47d213514b19">
+          <command Id="cece57ba-0cd2-4d7f-97cf-d0aed95ea9b5" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="330cccd3-fe1a-4b68-9237-0c8ff6a84e02">
+          <command Id="e0f4ee54-184b-4a8a-9d88-c11db0af3edf" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="9011d64a-30ae-4021-aa09-f9fc623c852c">
+          <command Id="bcfe2342-12f7-4cc7-846b-ae3c62ea4931" name="ListAll" />
+        </optionHasCommands>
+        <optionHasCommands Id="52f01623-bc5b-46d4-8027-dbf2e21c656f">
+          <command Id="833c2bbb-6cf5-4552-98e0-c5a788dd42a5" name="Management" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="b3e4db43-0ce0-4a8a-9f43-eec9b624eb14" optionType="Receipt">
-      <types>
-        <optionHasTypes Id="0b5761fe-8eaf-4e92-b8cb-e2be66e2eeae">
-          <type Id="a81adb66-f93d-4eda-b50a-85af91141013" name="Management" />
-        </optionHasTypes>
-      </types>
-    </option>
-    <option Id="b88d012c-8e31-4a18-b0f5-9af787d6491b" optionType="Assignment">
+    <option Id="2524a0b6-a8ea-4cd6-976a-6720997623d6" optionType="Submission">
       <functions>
-        <optionHasFunctions Id="d1d534d4-c90c-4858-b45e-ab8c9b940f09">
-          <function Id="0fabf5a9-ea62-4fb2-8de6-622208258368" name="notificationsDeadline" hasView="false" />
+        <optionHasFunctions Id="5323e778-6f0a-4592-8d87-dbe16ab282ac">
+          <function Id="fda2c4ae-ebb9-4c16-8631-0d5d78ca11f0" name="submissionCompleteInsert" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="41d756e0-1b8a-4ba3-92d0-c961e0c0fbb8">
-          <function Id="e2161d65-ad03-40e7-8783-d5f4290932d1" name="notificationsAceptanceRejection" hasView="false" />
+        <optionHasFunctions Id="116454de-089a-4b68-a683-b7098014bf59" param="Parcial">
+          <function Id="8214f1af-ea62-4391-a9a0-48636197c008" name="submissionPartialInsert" hasView="true" />
         </optionHasFunctions>
-        <optionHasFunctions Id="d5e04775-bbec-46d7-92a1-a11608fc0c52">
-          <function Id="c7f86888-7ceb-4488-a55d-8d5eb4aadc18" name="notificationPaperAssignment" hasView="false" />
-        </optionHasFunctions>
-        <optionHasFunctions Id="61f9c097-c846-45e9-ae53-b514a62e6857">
-          <function Id="f5ae25cb-ec19-4dc4-9b9f-75de7ef94200" name="assignmentInterestConflict" hasView="false" />
+        <optionHasFunctions Id="9b6915d8-7832-4e68-b75f-54bae33dc111" param="Completa">
+          <function Id="77690da7-f75a-46cd-81e3-c076ba0af3a9" name="submissionInsertAttachment" hasView="true" />
         </optionHasFunctions>
       </functions>
-      <types>
-        <optionHasTypes Id="08082b9f-2944-4078-8506-508e9c9be29b">
-          <type Id="4589d71e-5004-4ede-8b97-52e91a5f096f" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="321b93aa-143c-4e6a-b9e5-d9ad9395c093">
-          <type Id="0cb8ef14-e775-4042-81de-648df045fbb9" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="3dc6015b-f2c3-42de-bbe7-3443cbda337b">
-          <type Id="14db4955-619d-488f-8a95-16bafde98e29" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="cd555ff6-327c-4223-a482-51a6944b67d2">
-          <type Id="c7069ca3-1fca-4070-9f2d-8175992a7a65" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="ccc13993-2e65-4eb9-8152-8a0f906ab988">
-          <type Id="8533b02f-6299-46b4-bafe-a3cb83079290" name="ListAll" />
-        </optionHasTypes>
-        <optionHasTypes Id="8d54fd6c-516f-47aa-afe5-ff44a7216995">
-          <type Id="21670189-3256-4bf5-8fa5-73d59b0d2be2" name="Management" />
-        </optionHasTypes>
-      </types>
+      <categories>
+        <optionHasCategories Id="63246dfb-d64d-46fb-b930-d5f35934a589">
+          <category Id="3b791f0a-1617-4b7a-b43f-edccae186f66" name="Parcial" />
+        </optionHasCategories>
+        <optionHasCategories Id="bedec79f-c651-43a0-9b6a-fec839d4962f">
+          <category Id="ffcc9f14-5b51-43e3-8944-d40bb3496ee4" name="Completa" />
+        </optionHasCategories>
+      </categories>
+      <commands>
+        <optionHasCommands Id="8e52b720-aab4-44b5-809e-7a3d0a671df4">
+          <command Id="29dade4f-cfa4-47be-8b18-c200d1a20eec" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="253d27b1-2f53-4436-8266-5d60e288eb11">
+          <command Id="3fa96589-dc0a-4719-a93c-6a77e2e9f304" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="91eae1d9-19d8-463e-8e61-9709c8a7b3c3">
+          <command Id="38e25a43-7634-44c7-ab6d-e99493f6a927" name="ListAll" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="fad55766-6a37-4992-b0cc-ac690eda79d7" optionType="Submission">
+    <option Id="db1c1e32-9379-494b-95db-a38e5a8185a9" optionType="Author" />
+    <option Id="e6dc34f2-654f-4bac-856a-7c242bf44df1" optionType="Assignment">
       <functions>
-        <optionHasFunctions Id="b926f424-4cfe-4d84-94f8-70f0e2e37931">
-          <function Id="8cd3379f-6c2d-4f7e-a857-3aa7c24e3152" name="submissionPartialInsert" hasView="true" />
+        <optionHasFunctions Id="a66662de-8331-4a81-b8ea-0561f1144dc8">
+          <function Id="35e4b36b-1924-4c1a-a56a-0983eb7da2df" name="notificationsAceptanceRejection" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="3b15a22f-b48e-4488-98f0-7429769f1708" param="Completa">
-          <function Id="4c036660-e105-4b9f-829b-46f25f09259b" name="submissionInsertAttachment" hasView="false" />
+        <optionHasFunctions Id="2451fc23-de4e-4764-acae-5d2de23a8848">
+          <function Id="3d9d9a4c-38e6-4a2b-ab5c-a2723dcc8f1a" name="notificationPaperAssignment" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="ceff1f71-df0a-4455-9932-ed40ba4ca262">
-          <function Id="bbc59d38-0b76-4a20-9d32-c0959b923ecf" name="submissionCompleteInsert" hasView="true" />
+        <optionHasFunctions Id="96073e87-1b96-4392-9f51-676b523b17b2">
+          <function Id="4ab1d8f0-8c76-41dd-9538-2657f6d1597a" name="assignmentInterestConflict" hasView="false" />
+        </optionHasFunctions>
+        <optionHasFunctions Id="cf8cd49c-bf0b-4ecc-9407-312315283bdf">
+          <function Id="25065bff-5ec4-478e-8aa4-8cc185ebc159" name="notificationsDeadline" hasView="false" />
         </optionHasFunctions>
       </functions>
-      <properties>
-        <optionHasProperties Id="5156c5c6-fbed-4020-a8d8-41dcc256fdc5">
-          <property Id="abf0b8c7-8ef3-46be-81ff-156d81bc9e53" name="Parcial" />
-        </optionHasProperties>
-        <optionHasProperties Id="5f194c3e-8591-46d5-9610-035f7ed714c3">
-          <property Id="ad51a997-3def-4c91-bd32-3b6e18e59afe" name="Completa" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="9a93853b-89e6-4e66-a012-778678cee044">
-          <type Id="df9c55c7-5f04-4cdf-be52-674164aed0a6" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="23326ec1-69ba-4e25-9687-2aeeedf11791">
-          <type Id="8dac7d91-0d38-4718-b7e5-79598f001e08" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="fb22690a-6aa5-4208-b48c-d820e4d1f85b">
-          <type Id="58ea7789-035c-4ef8-883a-a2435473ae66" name="ListAll" />
-        </optionHasTypes>
-      </types>
+      <commands>
+        <optionHasCommands Id="80e36288-f536-40f5-8635-c1bf1fd85d4f">
+          <command Id="28ece12c-a020-4e7b-a072-546942eec8f6" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="f9f4bdfe-69c8-47cc-9f5c-4cee08fa7bb2">
+          <command Id="496148c8-1dd1-4c2c-85c5-23b4e6bda0b3" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="29cb3b97-6dfa-43a5-bcdb-03c774cf592d">
+          <command Id="59bdadf6-d29a-4681-939b-8008bcf14ca7" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="2dfbd54f-6632-4a2d-9710-ebb85d761535">
+          <command Id="1811aa11-6012-45c8-a803-684598fbb89c" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="53dc172d-3719-4f5a-867e-f6e4078b3fba">
+          <command Id="66e1438f-66ff-4ef4-b418-4d4dfec127c8" name="ListAll" />
+        </optionHasCommands>
+        <optionHasCommands Id="5bec0aec-96f9-463c-9670-264904544455">
+          <command Id="dcce2e14-fbc2-477a-b02f-f39b024828a4" name="Management" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="a9562654-79aa-4e1c-9f19-664b99b06a22" optionType="CheckingCopy">
+    <option Id="b7ee2624-fee0-45ba-a079-6c9754cf832a" optionType="Receipt">
+      <commands>
+        <optionHasCommands Id="9b5da3af-bde2-4fb3-9f04-dcc97c37170e">
+          <command Id="8ee14c2b-e1ef-425c-bcf2-87b25db995a2" name="Management" />
+        </optionHasCommands>
+      </commands>
+    </option>
+    <option Id="ed67dd96-6faf-462a-b14b-90e3f7a9d0af" optionType="Speaker">
+      <commands>
+        <optionHasCommands Id="647a5557-85d6-48f8-b7f2-4808c1701037">
+          <command Id="3142bfa2-5330-445e-b77f-e02f35b381ec" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="13d81051-97be-4d26-bf98-c3c99cd65abe">
+          <command Id="5df963dd-51fc-432e-88b8-a7ff088dd838" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="e1aa94cc-af57-4799-8dde-0477287b8bb6">
+          <command Id="b4e1a176-ed66-4878-b94c-70935f546d26" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="1be2f829-4e6c-4498-9511-bc382fe5d45c">
+          <command Id="9246a978-f8fc-497a-ae9d-ddde597446e9" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="3a18f1a9-5e77-4ff4-aa93-782dbacc84ef">
+          <command Id="b843ec9c-5fff-4877-b571-be90a1e4cb00" name="ListAll" />
+        </optionHasCommands>
+      </commands>
+    </option>
+    <option Id="4c5db9bf-971d-405b-8f15-210e7a30b6db" optionType="Reviewer">
       <functions>
-        <optionHasFunctions Id="bb6b74d0-3351-4ed8-a949-3d37b67ef366" param="Atestado">
-          <function Id="c107799c-cdb5-4e06-b9c1-9ffad4db5870" name="checkingCopyAtestado" hasView="false" />
-        </optionHasFunctions>
-        <optionHasFunctions Id="2b625de0-f71f-4edc-840a-9592c84d3ff5" param="Certificado">
-          <function Id="185ca88b-689b-4b82-8527-38fa81dceb41" name="checkingCopyCertificado" hasView="false" />
+        <optionHasFunctions Id="981dffd8-af05-44c1-9f5e-b8bbec84449e">
+          <function Id="40c87675-7e95-4c8d-8957-af70ff019715" name="reviewerRoundofReview" hasView="false" />
         </optionHasFunctions>
       </functions>
-      <properties>
-        <optionHasProperties Id="2aea4245-dfa5-4ce7-910c-3bd1747fa46c">
-          <property Id="31703d2d-3c1f-4e13-8ea3-317be4a8bae1" name="Certificado" />
-        </optionHasProperties>
-        <optionHasProperties Id="3ff48d8d-73b4-4a55-98e5-705a2f6ac61a">
-          <property Id="d628290c-d236-42a6-8e38-56e1d7eb514a" name="Atestado" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="1a700c55-1bb6-42fe-96a6-ab147f92ce46">
-          <type Id="73574c08-cc94-48f2-8fe3-bf7ee9ffa6ac" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="61def515-710a-4885-8ca2-bf873ee0b391">
-          <type Id="25d1ebc6-10d8-42d9-9cbb-176be335b000" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="0603d999-9359-47c6-8656-a7a19913ebfc">
-          <type Id="5d5f97fc-9abd-4101-a1a6-c1c7d152f4e0" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="7cc7e843-de11-4090-87b3-050893961e5c">
-          <type Id="591f9ef4-3e1a-4917-8cc0-8400e80eb480" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="519b6169-59ef-40b7-a3ed-d0f57131a8ea">
-          <type Id="c8780f4f-45a7-4678-b6e9-2b315c801789" name="ListAll" />
-        </optionHasTypes>
-        <optionHasTypes Id="dfe5811c-2566-4953-8e0c-08ed4e6fed77">
-          <type Id="aef76b10-2a6a-4834-be64-af138d7ca7ad" name="Management" />
-        </optionHasTypes>
-      </types>
+      <commands>
+        <optionHasCommands Id="be767c4d-b939-44ca-b8a6-788f41493b42">
+          <command Id="1dadd81c-b3fb-488b-90be-492cd8ebd697" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="5b11cccd-4a8e-4d77-a89c-e32acdb95f69">
+          <command Id="af88db9a-d30b-454e-b384-25f7b442ecd7" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="dbc1de2c-4ee0-47e8-a80f-258bfc834c05">
+          <command Id="08ab3554-2823-4076-99c2-d48ac60a2a1a" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="78f59939-af42-4a1e-b6da-a1753aed3e6f">
+          <command Id="6364a1f3-d79e-4b19-9e6b-1f12878af711" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="8f10b995-4016-434c-8439-5948cc8f1e6f">
+          <command Id="27e36c08-6778-49db-afa8-3c3fe26cf717" name="ListAll" />
+        </optionHasCommands>
+      </commands>
     </option>
-    <option Id="7003a395-041f-4048-8a67-f5818ceea0e8" optionType="Payment">
+    <option Id="a7b1ccd9-01c9-4a92-8804-3d2671d00317" optionType="CheckingCopy">
       <functions>
-        <optionHasFunctions Id="072c066e-937e-4b20-a751-368ecd5ab06a" param="Avista">
-          <function Id="0fd9b68f-e737-4f42-8663-f1f9719916b5" name="generateBoleto" hasView="false" />
+        <optionHasFunctions Id="06015468-5cf6-4e4b-8e9b-7d729165016a" param="Atestado">
+          <function Id="e54082f8-2e2a-4f91-95f2-102b6ce133d5" name="checkingCopyAtestado" hasView="false" />
         </optionHasFunctions>
-        <optionHasFunctions Id="d9080a03-97e4-4202-872e-0bd2460218a3" param="Credito">
-          <function Id="7b050cac-5cd3-4b9e-a537-ea12a4ae81e9" name="askCardInfo" hasView="false" />
-        </optionHasFunctions>
-        <optionHasFunctions Id="760c83bc-d41c-4e12-8f91-232a3271fbb4" param="Debito">
-          <function Id="be9b58d8-5003-421c-8d57-098f31bca9d6" name="generateCarne" hasView="false" />
+        <optionHasFunctions Id="45b20eb7-bf41-42e8-9a27-3608b22e4cf3" param="Certificado">
+          <function Id="8d78f36f-1d50-4284-a8c7-368f4f311c2d" name="checkingCopyCertificado" hasView="false" />
         </optionHasFunctions>
       </functions>
-      <properties>
-        <optionHasProperties Id="81253910-12ef-4fbd-ab5f-2818a464041e">
-          <property Id="39503b89-5471-4a3f-8fd9-3258545eadae" name="Avista" />
-        </optionHasProperties>
-        <optionHasProperties Id="e4b335e8-82f0-443b-b9ad-0eb32d3b4642">
-          <property Id="ca8e2534-d69f-4617-a348-5b67763ed710" name="Debito" />
-        </optionHasProperties>
-        <optionHasProperties Id="5fced816-57b3-4d13-a3a5-865de2b343b7">
-          <property Id="b9e3084b-13bd-4eeb-b87e-6f657e4b9cb6" name="Credito" />
-        </optionHasProperties>
-      </properties>
-      <types>
-        <optionHasTypes Id="d3f69551-9e8e-40ba-a832-bc9f6d4a5a77">
-          <type Id="a7b60c3c-88aa-4922-992e-314e7ad918d0" name="Insert" />
-        </optionHasTypes>
-        <optionHasTypes Id="880fe1c3-b3d3-4444-bd00-6a4a6a23c416">
-          <type Id="c62da3e8-effa-43e9-88d5-5bee35b2772c" name="Update" />
-        </optionHasTypes>
-        <optionHasTypes Id="b62d616c-4f71-4749-ad9f-bd6ed7265234">
-          <type Id="4a26d04b-58c5-4849-b379-c092737bac6b" name="Search" />
-        </optionHasTypes>
-        <optionHasTypes Id="3d4c8804-721e-4dff-83cc-5c1107f34aa5">
-          <type Id="2f92ee58-4d1c-4eda-8975-0d790516809b" name="Remove" />
-        </optionHasTypes>
-        <optionHasTypes Id="93c07b6e-1c35-401e-b915-8ba452d77158">
-          <type Id="aa2fba34-a042-4820-96fe-0e33dadb8d8f" name="ListAll" />
-        </optionHasTypes>
-        <optionHasTypes Id="64adf08d-dd07-4680-9d01-06bc6eaefb52">
-          <type Id="c315aa6d-b65b-43bf-8fb4-1959c486803b" name="Management" />
-        </optionHasTypes>
-      </types>
+      <commands>
+        <optionHasCommands Id="2fc5f9b7-35cd-4318-b4e0-f01644486997">
+          <command Id="3c8b6f8a-b2c0-492f-a5db-b44376708d17" name="Insert" />
+        </optionHasCommands>
+        <optionHasCommands Id="c436e2bd-fa0f-4fe0-8bd6-5b9504e0129b">
+          <command Id="2d3d8da9-eafa-4eef-8193-a563be4b6fed" name="Update" />
+        </optionHasCommands>
+        <optionHasCommands Id="8dadc5c0-6038-49c2-9d01-b1b8c8b5091d">
+          <command Id="b57e92f4-96ae-4cec-a57b-1f694ffc0838" name="Search" />
+        </optionHasCommands>
+        <optionHasCommands Id="fd5ff3e3-f6eb-486e-ac32-7424c3b323a0">
+          <command Id="79986d34-d121-458a-85b3-04132781d964" name="Remove" />
+        </optionHasCommands>
+        <optionHasCommands Id="fe486f5a-918b-4363-a628-94f1d9eb3c7f">
+          <command Id="9a428d5f-a919-409a-bfa3-675dd2894b11" name="ListAll" />
+        </optionHasCommands>
+        <optionHasCommands Id="82f0467a-012e-4099-8cab-8f466b344ebb">
+          <command Id="044f7822-fa33-493b-8f2f-18c52ad44237" name="Management" />
+        </optionHasCommands>
+      </commands>
     </option>
   </elements>
 </evModel>

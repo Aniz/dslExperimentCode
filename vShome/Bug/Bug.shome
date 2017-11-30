@@ -5,7 +5,7 @@ Create rise "/dev/cu.usbmodem411"
   set LightSensor Sensor as RANGE
     set AirConditioner Actuator as INFO
     set PresenceSensor Sensor as BOOL
-    set Alarn Actuator as INFO
+    set Alarm Actuator as INFO
     set TemperatureSensor Actuator as RANGE
     set AutomaticDoors Sensor as INFO
     set Led Actuator as INFO
@@ -53,7 +53,7 @@ Create rise "/dev/cu.usbmodem411"
 		
 	use Optional AlarmAgainstRobbery
 			
-			actuator: Alarn
+			actuator: Alarm
 				serial: 5575292698449566428L
 		
 		
@@ -77,7 +77,9 @@ Create rise "/dev/cu.usbmodem411"
 			serial: 4435596811596503762L
 		
 		
-	use OR UserAirConditionerControl
+	use Optional UserAirConditionerControl
 			
-					
+			actuator: AirConditioner
+				serial: 5575292698449566428L
+		
 	
