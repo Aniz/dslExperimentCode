@@ -202,13 +202,13 @@
     <option Id="2524a0b6-a8ea-4cd6-976a-6720997623d6" optionType="Submission">
       <functions>
         <optionHasFunctions Id="5323e778-6f0a-4592-8d87-dbe16ab282ac" param="Completa">
-          <function Id="fda2c4ae-ebb9-4c16-8631-0d5d78ca11f0" name="submissionInsertAttachment" hasView="true" />
+          <function Id="fda2c4ae-ebb9-4c16-8631-0d5d78ca11f0" name="submissionInsertAttachment" hasView="false" />
         </optionHasFunctions>
         <optionHasFunctions Id="116454de-089a-4b68-a683-b7098014bf59">
-          <function Id="8214f1af-ea62-4391-a9a0-48636197c008" name="submissionPartialInsert" hasView="false" />
+          <function Id="8214f1af-ea62-4391-a9a0-48636197c008" name="submissionPartialInsert" hasView="true" />
         </optionHasFunctions>
         <optionHasFunctions Id="9b6915d8-7832-4e68-b75f-54bae33dc111">
-          <function Id="77690da7-f75a-46cd-81e3-c076ba0af3a9" name="submissionCompleteInsert" hasView="false" />
+          <function Id="77690da7-f75a-46cd-81e3-c076ba0af3a9" name="submissionCompleteInsert" hasView="true" />
         </optionHasFunctions>
       </functions>
       <categories>
