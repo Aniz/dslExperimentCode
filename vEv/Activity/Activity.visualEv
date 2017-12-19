@@ -155,50 +155,6 @@
         </optionHasCommands>
       </commands>
     </option>
-    <option Id="dde3672c-f80b-4fe3-8141-dda5a7a160f9" optionType="Payment">
-      <functions>
-        <optionHasFunctions Id="77978be0-1cbe-40bf-a52c-352904630f4f" param="Debito">
-          <function Id="e9b6ccb0-c85f-4af8-932b-05d5aa7fbf94" name="generateCarne" hasView="false" />
-        </optionHasFunctions>
-        <optionHasFunctions Id="fdfb576f-2fed-4045-9b0b-c17e4d470455" param="AVista">
-          <function Id="266ccfe0-9ae8-4785-9850-5cab205d48d2" name="generateBoleto" hasView="false" />
-        </optionHasFunctions>
-        <optionHasFunctions Id="166a69cb-2c1d-4c01-92d3-831a3310766c" param="Credito">
-          <function Id="bacc8de4-8c43-457a-9a22-81ab43302ed0" name="askCardInfo" hasView="false" />
-        </optionHasFunctions>
-      </functions>
-      <categories>
-        <optionHasCategories Id="9d8064c5-03cc-4c76-9465-24f5a2e00b86">
-          <category Id="834d1d5d-6f81-4f22-8771-3d192ef82584" name="Debito" />
-        </optionHasCategories>
-        <optionHasCategories Id="3a015349-2e50-464c-be60-cacb90812774">
-          <category Id="1800882a-b017-4394-8392-de9ac554323a" name="Credito" />
-        </optionHasCategories>
-        <optionHasCategories Id="c5c789cb-e6f3-4383-9435-1c9d46221b61">
-          <category Id="a197b1cd-05a5-4d50-b667-10112e4e2c3d" name="Avista" />
-        </optionHasCategories>
-      </categories>
-      <commands>
-        <optionHasCommands Id="467c7410-df2c-4619-8f12-b6ddd81c9eaf">
-          <command Id="21f55e39-8446-4772-bd58-c912f38af554" name="Insert" />
-        </optionHasCommands>
-        <optionHasCommands Id="9ae744ba-a892-4701-a1cb-d0c54327b12b">
-          <command Id="0415371a-f89a-454c-847c-9105bf274ce2" name="Update" />
-        </optionHasCommands>
-        <optionHasCommands Id="c168e84f-0e38-4061-9b1a-47d213514b19">
-          <command Id="cece57ba-0cd2-4d7f-97cf-d0aed95ea9b5" name="Search" />
-        </optionHasCommands>
-        <optionHasCommands Id="330cccd3-fe1a-4b68-9237-0c8ff6a84e02">
-          <command Id="e0f4ee54-184b-4a8a-9d88-c11db0af3edf" name="Remove" />
-        </optionHasCommands>
-        <optionHasCommands Id="9011d64a-30ae-4021-aa09-f9fc623c852c">
-          <command Id="bcfe2342-12f7-4cc7-846b-ae3c62ea4931" name="ListAll" />
-        </optionHasCommands>
-        <optionHasCommands Id="52f01623-bc5b-46d4-8027-dbf2e21c656f">
-          <command Id="833c2bbb-6cf5-4552-98e0-c5a788dd42a5" name="Management" />
-        </optionHasCommands>
-      </commands>
-    </option>
     <option Id="2524a0b6-a8ea-4cd6-976a-6720997623d6" optionType="Submission">
       <functions>
         <optionHasFunctions Id="5323e778-6f0a-4592-8d87-dbe16ab282ac" param="Completa">

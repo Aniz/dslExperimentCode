@@ -48,22 +48,6 @@
     <functionShape Id="d6bfca81-65df-43c6-86cf-2a1a2702c395" absoluteBounds="2.25, 9.125, 1.5, 0.625">
       <functionMoniker Id="aacd68ad-ae8b-4cec-8caa-e8ab936eab96" />
     </functionShape>
-    <optionShape Id="4826cca5-3a5a-483c-8b5f-138c56e0fe57" absoluteBounds="4, 5.125, 1.5, 3.3494921874999992">
-      <optionMoniker Id="dde3672c-f80b-4fe3-8141-dda5a7a160f9" />
-      <nestedChildShapes>
-        <elementListCompartment Id="07659411-c3c8-4d55-9cdb-e110b7ceff85" absoluteBounds="4.015, 6.135, 1.4700000000000002, 0.8262939453125" name="Properties" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="186f5905-a41b-46d0-93a5-ae4a1042ed6d" absoluteBounds="4.015, 6.9712939453125, 1.4700000000000002, 1.4031982421875" name="Actions" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </optionShape>
-    <functionShape Id="0566fd1a-22cc-41cc-877f-a4d64486d183" absoluteBounds="4.5, 4.25, 1.125, 0.375">
-      <functionMoniker Id="e9b6ccb0-c85f-4af8-932b-05d5aa7fbf94" />
-    </functionShape>
-    <functionShape Id="10f6b045-f168-4e6a-ada5-0125a998a7df" absoluteBounds="4.5, 9.5, 1.25, 0.375">
-      <functionMoniker Id="266ccfe0-9ae8-4785-9850-5cab205d48d2" />
-    </functionShape>
-    <functionShape Id="337946e1-513d-4a09-b64d-1a83a6234fb8" absoluteBounds="4, 9, 0.875, 0.375">
-      <functionMoniker Id="bacc8de4-8c43-457a-9a22-81ab43302ed0" />
-    </functionShape>
     <optionShape Id="2cd46f12-95fa-41a3-8996-17f188ae4662" absoluteBounds="8.5, 7.75, 1.5, 2.5802864583333331">
       <optionMoniker Id="2524a0b6-a8ea-4cd6-976a-6720997623d6" />
       <nestedChildShapes>
@@ -175,7 +159,7 @@
         <functionShapeMoniker Id="308cc057-7748-4109-b34b-bb5cb3e86888" />
       </nodes>
     </optionConnector>
-    <optionConnector Id="7e5be9d6-1f35-4dc7-8a68-8245d793abbe" edgePoints="[(3.84375 : 8.85909505208333); (3.84375 : 10.0587839420795)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <optionConnector Id="7e5be9d6-1f35-4dc7-8a68-8245d793abbe" edgePoints="[(3.84375 : 8.85909505208333); (3.84375 : 10.0587839420795)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="b893a7c2-7ee8-44f8-b007-4cb00834a0c5" />
       <relativeChildShapes />
       <nodes>
@@ -189,30 +173,6 @@
       <nodes>
         <optionShapeMoniker Id="228b6b82-a06e-491f-af8d-ad8020e70494" />
         <functionShapeMoniker Id="d6bfca81-65df-43c6-86cf-2a1a2702c395" />
-      </nodes>
-    </optionConnector>
-    <optionConnector Id="35a74d22-4ded-4c2d-abe1-169a1d43a495" edgePoints="[(5 : 5.125); (5 : 4.62383899812498)]" fixedFrom="NotFixed" fixedTo="NotFixed">
-      <optionHasFunctionsMoniker Id="77978be0-1cbe-40bf-a52c-352904630f4f" />
-      <relativeChildShapes />
-      <nodes>
-        <optionShapeMoniker Id="4826cca5-3a5a-483c-8b5f-138c56e0fe57" />
-        <functionShapeMoniker Id="0566fd1a-22cc-41cc-877f-a4d64486d183" />
-      </nodes>
-    </optionConnector>
-    <optionConnector Id="7b3901c7-9fd2-4473-94af-c6e2ee3f3c53" edgePoints="[(5.21875 : 8.4744921875); (5.21875 : 9.50212137562545)]" fixedFrom="NotFixed" fixedTo="NotFixed">
-      <optionHasFunctionsMoniker Id="fdfb576f-2fed-4045-9b0b-c17e4d470455" />
-      <relativeChildShapes />
-      <nodes>
-        <optionShapeMoniker Id="4826cca5-3a5a-483c-8b5f-138c56e0fe57" />
-        <functionShapeMoniker Id="10f6b045-f168-4e6a-ada5-0125a998a7df" />
-      </nodes>
-    </optionConnector>
-    <optionConnector Id="6a728fa5-9e67-4421-81d2-bb9b002a6cc8" edgePoints="[(4.4375 : 8.4744921875); (4.4375 : 9)]" fixedFrom="NotFixed" fixedTo="NotFixed">
-      <optionHasFunctionsMoniker Id="166a69cb-2c1d-4c01-92d3-831a3310766c" />
-      <relativeChildShapes />
-      <nodes>
-        <optionShapeMoniker Id="4826cca5-3a5a-483c-8b5f-138c56e0fe57" />
-        <functionShapeMoniker Id="337946e1-513d-4a09-b64d-1a83a6234fb8" />
       </nodes>
     </optionConnector>
     <optionConnector Id="f689b2fc-1114-4ec3-8122-569580f24bca" edgePoints="[(9.375 : 10.3302864583333); (9.375 : 10.760421288125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
@@ -239,7 +199,7 @@
         <functionShapeMoniker Id="49445d60-96f1-4856-899e-d2b76e1e25f2" />
       </nodes>
     </optionConnector>
-    <optionConnector Id="30a98f79-056a-4583-b84d-49fcd953b5f1" edgePoints="[(5.96875 : 7.897587890625); (5.96875 : 9.4375); (6.25 : 9.4375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <optionConnector Id="30a98f79-056a-4583-b84d-49fcd953b5f1" edgePoints="[(5.96875 : 7.897587890625); (5.96875 : 9.4375); (6.25 : 9.4375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="a66662de-8331-4a81-b8ea-0561f1144dc8" />
       <relativeChildShapes />
       <nodes>
@@ -255,7 +215,7 @@
         <functionShapeMoniker Id="9718fc4a-4fb0-4a55-9314-620d7c8b9293" />
       </nodes>
     </optionConnector>
-    <optionConnector Id="2cfeb15e-94cd-4b48-abba-46bf3c971bc8" edgePoints="[(6.03125 : 7.897587890625); (6.03125 : 9.88783795655963)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <optionConnector Id="2cfeb15e-94cd-4b48-abba-46bf3c971bc8" edgePoints="[(6.03125 : 7.897587890625); (6.03125 : 9.88783795655963)]" fixedFrom="Algorithm" fixedTo="Algorithm">
       <optionHasFunctionsMoniker Id="96073e87-1b96-4392-9f51-676b523b17b2" />
       <relativeChildShapes />
       <nodes>
